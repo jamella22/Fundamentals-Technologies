@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\obj\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\obj\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\obj\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\obj\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\bin\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.deps.json
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\bin\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.runtimeconfig.json
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\bin\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\bin\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.dll
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\bin\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.pdb
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\obj\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.dll
+C:\Users\Kireto\source\repos\Arrays\Last K Numbers Sums Sequence\obj\Debug\netcoreapp2.0\Last K Numbers Sums Sequence.pdb

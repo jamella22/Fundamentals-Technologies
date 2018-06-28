@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\bin\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.deps.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\bin\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\bin\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\bin\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.dll
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\bin\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.pdb
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\obj\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\obj\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\obj\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\obj\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\obj\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.dll
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Dictionaries, lambda expressions and LINQ\obj\Debug\netcoreapp2.0\Dictionaries, lambda expressions and LINQ.pdb

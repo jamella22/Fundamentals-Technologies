@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Data Types and Variables Exercises.deps.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Data Types and Variables Exercises.runtimeconfig.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Data Types and Variables Exercises.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Data Types and Variables Exercises.dll
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Data Types and Variables Exercises.pdb
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Data Types and Variables Exercises.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Data Types and Variables Exercises.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Data Types and Variables Exercises.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Data Types and Variables Exercises.AssemblyInfo.cs
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Data Types and Variables Exercises.dll
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Data Types and Variables Exercises.pdb

@@ -1,0 +1,10 @@
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\bin\Debug\netcoreapp2.0\LAST K NUMBERS.deps.json
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\bin\Debug\netcoreapp2.0\LAST K NUMBERS.runtimeconfig.json
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\bin\Debug\netcoreapp2.0\LAST K NUMBERS.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\bin\Debug\netcoreapp2.0\LAST K NUMBERS.dll
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\bin\Debug\netcoreapp2.0\LAST K NUMBERS.pdb
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\obj\Debug\netcoreapp2.0\LAST K NUMBERS.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\obj\Debug\netcoreapp2.0\LAST K NUMBERS.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\obj\Debug\netcoreapp2.0\LAST K NUMBERS.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\obj\Debug\netcoreapp2.0\LAST K NUMBERS.dll
+C:\Users\Kireto\source\repos\Arrays\LAST K NUMBERS\obj\Debug\netcoreapp2.0\LAST K NUMBERS.pdb

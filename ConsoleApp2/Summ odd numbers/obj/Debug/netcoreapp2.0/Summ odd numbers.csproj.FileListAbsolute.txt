@@ -1,0 +1,10 @@
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\bin\Debug\netcoreapp2.0\Summ odd numbers.deps.json
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\bin\Debug\netcoreapp2.0\Summ odd numbers.runtimeconfig.json
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\bin\Debug\netcoreapp2.0\Summ odd numbers.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\bin\Debug\netcoreapp2.0\Summ odd numbers.dll
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\bin\Debug\netcoreapp2.0\Summ odd numbers.pdb
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\obj\Debug\netcoreapp2.0\Summ odd numbers.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\obj\Debug\netcoreapp2.0\Summ odd numbers.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\obj\Debug\netcoreapp2.0\Summ odd numbers.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\obj\Debug\netcoreapp2.0\Summ odd numbers.dll
+C:\Users\Kireto\source\repos\ConsoleApp2\Summ odd numbers\obj\Debug\netcoreapp2.0\Summ odd numbers.pdb

@@ -1,0 +1,10 @@
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\bin\Debug\netcoreapp2.0\Rectangle Area.deps.json
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\bin\Debug\netcoreapp2.0\Rectangle Area.runtimeconfig.json
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\bin\Debug\netcoreapp2.0\Rectangle Area.runtimeconfig.dev.json
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\bin\Debug\netcoreapp2.0\Rectangle Area.dll
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\bin\Debug\netcoreapp2.0\Rectangle Area.pdb
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\obj\Debug\netcoreapp2.0\Rectangle Area.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\obj\Debug\netcoreapp2.0\Rectangle Area.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\obj\Debug\netcoreapp2.0\Rectangle Area.AssemblyInfo.cs
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\obj\Debug\netcoreapp2.0\Rectangle Area.dll
+c:\users\kireto\source\repos\ConsoleApp1\Rectangle Area\obj\Debug\netcoreapp2.0\Rectangle Area.pdb

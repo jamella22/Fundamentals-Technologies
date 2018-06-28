@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\bin\Debug\netcoreapp2.0\Print Part of the ASCIIII.deps.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\bin\Debug\netcoreapp2.0\Print Part of the ASCIIII.runtimeconfig.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\bin\Debug\netcoreapp2.0\Print Part of the ASCIIII.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\bin\Debug\netcoreapp2.0\Print Part of the ASCIIII.dll
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\bin\Debug\netcoreapp2.0\Print Part of the ASCIIII.pdb
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\obj\Debug\netcoreapp2.0\Print Part of the ASCIIII.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\obj\Debug\netcoreapp2.0\Print Part of the ASCIIII.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\obj\Debug\netcoreapp2.0\Print Part of the ASCIIII.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\obj\Debug\netcoreapp2.0\Print Part of the ASCIIII.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\obj\Debug\netcoreapp2.0\Print Part of the ASCIIII.dll
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Print Part of the ASCIIII\obj\Debug\netcoreapp2.0\Print Part of the ASCIIII.pdb

@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\obj\Debug\netcoreapp2.0\Reverse Characters.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\obj\Debug\netcoreapp2.0\Reverse Characters.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\obj\Debug\netcoreapp2.0\Reverse Characters.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\obj\Debug\netcoreapp2.0\Reverse Characters.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\bin\Debug\netcoreapp2.0\Reverse Characters.deps.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\bin\Debug\netcoreapp2.0\Reverse Characters.runtimeconfig.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\bin\Debug\netcoreapp2.0\Reverse Characters.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\bin\Debug\netcoreapp2.0\Reverse Characters.dll
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\bin\Debug\netcoreapp2.0\Reverse Characters.pdb
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\obj\Debug\netcoreapp2.0\Reverse Characters.dll
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Reverse Characters\obj\Debug\netcoreapp2.0\Reverse Characters.pdb

@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\bin\Debug\netcoreapp2.0\rotate.deps.json
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\bin\Debug\netcoreapp2.0\rotate.runtimeconfig.json
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\bin\Debug\netcoreapp2.0\rotate.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\bin\Debug\netcoreapp2.0\rotate.dll
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\bin\Debug\netcoreapp2.0\rotate.pdb
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\obj\Debug\netcoreapp2.0\rotate.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\obj\Debug\netcoreapp2.0\rotate.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\obj\Debug\netcoreapp2.0\rotate.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\obj\Debug\netcoreapp2.0\rotate.AssemblyInfo.cs
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\obj\Debug\netcoreapp2.0\rotate.dll
+c:\users\kireto\source\repos\Arrays uprajnenie\rotate\obj\Debug\netcoreapp2.0\rotate.pdb

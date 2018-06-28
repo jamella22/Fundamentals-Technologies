@@ -1,0 +1,10 @@
+c:\users\kireto\source\repos\Dictionares\Dictionares\bin\Debug\netcoreapp2.0\Dictionares.deps.json
+c:\users\kireto\source\repos\Dictionares\Dictionares\bin\Debug\netcoreapp2.0\Dictionares.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionares\Dictionares\bin\Debug\netcoreapp2.0\Dictionares.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionares\Dictionares\bin\Debug\netcoreapp2.0\Dictionares.dll
+c:\users\kireto\source\repos\Dictionares\Dictionares\bin\Debug\netcoreapp2.0\Dictionares.pdb
+c:\users\kireto\source\repos\Dictionares\Dictionares\obj\Debug\netcoreapp2.0\Dictionares.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionares\Dictionares\obj\Debug\netcoreapp2.0\Dictionares.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionares\Dictionares\obj\Debug\netcoreapp2.0\Dictionares.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionares\Dictionares\obj\Debug\netcoreapp2.0\Dictionares.dll
+c:\users\kireto\source\repos\Dictionares\Dictionares\obj\Debug\netcoreapp2.0\Dictionares.pdb

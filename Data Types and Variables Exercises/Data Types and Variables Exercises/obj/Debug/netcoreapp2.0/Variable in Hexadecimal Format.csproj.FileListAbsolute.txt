@@ -1,0 +1,10 @@
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Variable in Hexadecimal Format.deps.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Variable in Hexadecimal Format.runtimeconfig.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Variable in Hexadecimal Format.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Variable in Hexadecimal Format.dll
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\bin\Debug\netcoreapp2.0\Variable in Hexadecimal Format.pdb
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Variable in Hexadecimal Format.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Variable in Hexadecimal Format.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Variable in Hexadecimal Format.AssemblyInfo.cs
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Variable in Hexadecimal Format.dll
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Data Types and Variables Exercises\obj\Debug\netcoreapp2.0\Variable in Hexadecimal Format.pdb

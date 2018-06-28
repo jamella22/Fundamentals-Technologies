@@ -1,0 +1,10 @@
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\bin\Debug\netcoreapp2.0\Hello Name.deps.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\bin\Debug\netcoreapp2.0\Hello Name.runtimeconfig.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\bin\Debug\netcoreapp2.0\Hello Name.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\bin\Debug\netcoreapp2.0\Hello Name.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\bin\Debug\netcoreapp2.0\Hello Name.pdb
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\obj\Debug\netcoreapp2.0\Hello Name.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\obj\Debug\netcoreapp2.0\Hello Name.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\obj\Debug\netcoreapp2.0\Hello Name.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\obj\Debug\netcoreapp2.0\Hello Name.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Hello Name\obj\Debug\netcoreapp2.0\Hello Name.pdb

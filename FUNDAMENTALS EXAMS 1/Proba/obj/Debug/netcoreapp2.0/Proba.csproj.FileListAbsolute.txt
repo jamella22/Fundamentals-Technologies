@@ -1,0 +1,11 @@
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\bin\Debug\netcoreapp2.0\Proba.deps.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\bin\Debug\netcoreapp2.0\Proba.runtimeconfig.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\bin\Debug\netcoreapp2.0\Proba.runtimeconfig.dev.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\bin\Debug\netcoreapp2.0\Proba.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\bin\Debug\netcoreapp2.0\Proba.pdb
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\obj\Debug\netcoreapp2.0\Proba.csprojAssemblyReference.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\obj\Debug\netcoreapp2.0\Proba.csproj.CoreCompileInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\obj\Debug\netcoreapp2.0\Proba.AssemblyInfoInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\obj\Debug\netcoreapp2.0\Proba.AssemblyInfo.cs
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\obj\Debug\netcoreapp2.0\Proba.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Proba\obj\Debug\netcoreapp2.0\Proba.pdb

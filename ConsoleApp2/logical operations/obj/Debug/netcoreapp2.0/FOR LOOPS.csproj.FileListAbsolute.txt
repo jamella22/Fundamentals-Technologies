@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\bin\Debug\netcoreapp2.0\FOR LOOPS.deps.json
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\bin\Debug\netcoreapp2.0\FOR LOOPS.runtimeconfig.json
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\bin\Debug\netcoreapp2.0\FOR LOOPS.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\bin\Debug\netcoreapp2.0\FOR LOOPS.dll
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\bin\Debug\netcoreapp2.0\FOR LOOPS.pdb
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\obj\Debug\netcoreapp2.0\FOR LOOPS.csprojResolveAssemblyReference.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\obj\Debug\netcoreapp2.0\FOR LOOPS.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\obj\Debug\netcoreapp2.0\FOR LOOPS.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\obj\Debug\netcoreapp2.0\FOR LOOPS.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\obj\Debug\netcoreapp2.0\FOR LOOPS.dll
+C:\Users\Kireto\source\repos\ConsoleApp2\logical operations\obj\Debug\netcoreapp2.0\FOR LOOPS.pdb

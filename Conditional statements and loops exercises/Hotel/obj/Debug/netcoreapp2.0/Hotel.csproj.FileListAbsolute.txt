@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\bin\Debug\netcoreapp2.0\Hotel.deps.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\bin\Debug\netcoreapp2.0\Hotel.runtimeconfig.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\bin\Debug\netcoreapp2.0\Hotel.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\bin\Debug\netcoreapp2.0\Hotel.dll
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\bin\Debug\netcoreapp2.0\Hotel.pdb
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\obj\Debug\netcoreapp2.0\Hotel.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\obj\Debug\netcoreapp2.0\Hotel.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\obj\Debug\netcoreapp2.0\Hotel.AssemblyInfo.cs
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\obj\Debug\netcoreapp2.0\Hotel.dll
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Hotel\obj\Debug\netcoreapp2.0\Hotel.pdb
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Hotel\obj\Debug\netcoreapp2.0\Hotel.csprojAssemblyReference.cache

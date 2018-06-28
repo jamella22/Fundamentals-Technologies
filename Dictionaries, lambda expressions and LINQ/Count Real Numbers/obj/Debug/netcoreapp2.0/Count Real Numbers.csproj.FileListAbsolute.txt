@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\bin\Debug\netcoreapp2.0\Count Real Numbers.deps.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\bin\Debug\netcoreapp2.0\Count Real Numbers.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\bin\Debug\netcoreapp2.0\Count Real Numbers.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\bin\Debug\netcoreapp2.0\Count Real Numbers.dll
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\bin\Debug\netcoreapp2.0\Count Real Numbers.pdb
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\obj\Debug\netcoreapp2.0\Count Real Numbers.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\obj\Debug\netcoreapp2.0\Count Real Numbers.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\obj\Debug\netcoreapp2.0\Count Real Numbers.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\obj\Debug\netcoreapp2.0\Count Real Numbers.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\obj\Debug\netcoreapp2.0\Count Real Numbers.dll
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Count Real Numbers\obj\Debug\netcoreapp2.0\Count Real Numbers.pdb

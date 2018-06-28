@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\bin\Debug\netcoreapp2.0\Employee Data.deps.json
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\bin\Debug\netcoreapp2.0\Employee Data.runtimeconfig.json
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\bin\Debug\netcoreapp2.0\Employee Data.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\bin\Debug\netcoreapp2.0\Employee Data.dll
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\bin\Debug\netcoreapp2.0\Employee Data.pdb
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\obj\Debug\netcoreapp2.0\Employee Data.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\obj\Debug\netcoreapp2.0\Employee Data.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\obj\Debug\netcoreapp2.0\Employee Data.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\obj\Debug\netcoreapp2.0\Employee Data.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\obj\Debug\netcoreapp2.0\Employee Data.dll
+C:\Users\Kireto\source\repos\LABB\ConsoleApp1\obj\Debug\netcoreapp2.0\Employee Data.pdb

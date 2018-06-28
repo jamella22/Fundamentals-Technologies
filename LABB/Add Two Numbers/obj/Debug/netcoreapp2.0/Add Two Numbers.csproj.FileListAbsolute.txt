@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\bin\Debug\netcoreapp2.0\Add Two Numbers.deps.json
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\bin\Debug\netcoreapp2.0\Add Two Numbers.runtimeconfig.json
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\bin\Debug\netcoreapp2.0\Add Two Numbers.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\bin\Debug\netcoreapp2.0\Add Two Numbers.dll
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\bin\Debug\netcoreapp2.0\Add Two Numbers.pdb
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\obj\Debug\netcoreapp2.0\Add Two Numbers.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\obj\Debug\netcoreapp2.0\Add Two Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\obj\Debug\netcoreapp2.0\Add Two Numbers.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\obj\Debug\netcoreapp2.0\Add Two Numbers.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\obj\Debug\netcoreapp2.0\Add Two Numbers.dll
+C:\Users\Kireto\source\repos\LABB\Add Two Numbers\obj\Debug\netcoreapp2.0\Add Two Numbers.pdb

@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\bin\Debug\netcoreapp2.0\Master Numbers.deps.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\bin\Debug\netcoreapp2.0\Master Numbers.runtimeconfig.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\bin\Debug\netcoreapp2.0\Master Numbers.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\bin\Debug\netcoreapp2.0\Master Numbers.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\bin\Debug\netcoreapp2.0\Master Numbers.pdb
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\obj\Debug\netcoreapp2.0\Master Numbers.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\obj\Debug\netcoreapp2.0\Master Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\obj\Debug\netcoreapp2.0\Master Numbers.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\obj\Debug\netcoreapp2.0\Master Numbers.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\obj\Debug\netcoreapp2.0\Master Numbers.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Geometry Calculator\obj\Debug\netcoreapp2.0\Master Numbers.pdb

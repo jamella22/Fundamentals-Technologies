@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\bin\Debug\netcoreapp2.0\Problem 5 Character Stats.deps.json
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\bin\Debug\netcoreapp2.0\Problem 5 Character Stats.runtimeconfig.json
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\bin\Debug\netcoreapp2.0\Problem 5 Character Stats.runtimeconfig.dev.json
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\bin\Debug\netcoreapp2.0\Problem 5 Character Stats.dll
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\bin\Debug\netcoreapp2.0\Problem 5 Character Stats.pdb
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\obj\Debug\netcoreapp2.0\Problem 5 Character Stats.csprojResolveAssemblyReference.cache
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\obj\Debug\netcoreapp2.0\Problem 5 Character Stats.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\obj\Debug\netcoreapp2.0\Problem 5 Character Stats.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\obj\Debug\netcoreapp2.0\Problem 5 Character Stats.AssemblyInfo.cs
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\obj\Debug\netcoreapp2.0\Problem 5 Character Stats.dll
+c:\users\kireto\source\repos\ConsoleApp1\Problem 5 Character Stats\obj\Debug\netcoreapp2.0\Problem 5 Character Stats.pdb

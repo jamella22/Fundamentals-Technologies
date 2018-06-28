@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\bin\Debug\netcoreapp2.0\Max Sequence of Equal.deps.json
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\bin\Debug\netcoreapp2.0\Max Sequence of Equal.runtimeconfig.json
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\bin\Debug\netcoreapp2.0\Max Sequence of Equal.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\bin\Debug\netcoreapp2.0\Max Sequence of Equal.dll
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\bin\Debug\netcoreapp2.0\Max Sequence of Equal.pdb
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\obj\Debug\netcoreapp2.0\Max Sequence of Equal.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\obj\Debug\netcoreapp2.0\Max Sequence of Equal.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\obj\Debug\netcoreapp2.0\Max Sequence of Equal.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\obj\Debug\netcoreapp2.0\Max Sequence of Equal.dll
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\obj\Debug\netcoreapp2.0\Max Sequence of Equal.pdb
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Max Sequence of Equal\obj\Debug\netcoreapp2.0\Max Sequence of Equal.csprojAssemblyReference.cache

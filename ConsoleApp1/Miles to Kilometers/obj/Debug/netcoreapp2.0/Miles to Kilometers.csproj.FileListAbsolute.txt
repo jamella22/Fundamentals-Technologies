@@ -1,0 +1,10 @@
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\obj\Debug\netcoreapp2.0\Miles to Kilometers.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\obj\Debug\netcoreapp2.0\Miles to Kilometers.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\obj\Debug\netcoreapp2.0\Miles to Kilometers.AssemblyInfo.cs
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\bin\Debug\netcoreapp2.0\Miles to Kilometers.deps.json
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\bin\Debug\netcoreapp2.0\Miles to Kilometers.runtimeconfig.json
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\bin\Debug\netcoreapp2.0\Miles to Kilometers.runtimeconfig.dev.json
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\bin\Debug\netcoreapp2.0\Miles to Kilometers.dll
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\bin\Debug\netcoreapp2.0\Miles to Kilometers.pdb
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\obj\Debug\netcoreapp2.0\Miles to Kilometers.dll
+c:\users\kireto\source\repos\ConsoleApp1\Miles to Kilometers\obj\Debug\netcoreapp2.0\Miles to Kilometers.pdb

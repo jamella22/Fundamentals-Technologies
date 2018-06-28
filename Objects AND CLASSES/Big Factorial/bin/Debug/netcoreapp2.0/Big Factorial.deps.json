@@ -1,0 +1,38 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "4c06e1a309c0fef40453218996ed93248fd5317d"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Big Factorial/1.0.0": {
+        "dependencies": {
+          "Nakov.TurtleGraphics": "1.0.0.2"
+        },
+        "runtime": {
+          "Big Factorial.dll": {}
+        }
+      },
+      "Nakov.TurtleGraphics/1.0.0.2": {
+        "runtime": {
+          "lib/net20/Nakov.TurtleGraphics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Big Factorial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nakov.TurtleGraphics/1.0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P9ccgO6fBVBn2b5D4/K1Q2XDQEyceR3pfFval/AGOAICRvRldZ+XGMZLT93YSLarOnVqkEH3s4q79rOL50uFGA==",
+      "path": "nakov.turtlegraphics/1.0.0.2",
+      "hashPath": "nakov.turtlegraphics.1.0.0.2.nupkg.sha512"
+    }
+  }
+}

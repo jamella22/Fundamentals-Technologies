@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\bin\Debug\netcoreapp2.0\Floating Point Division.deps.json
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\bin\Debug\netcoreapp2.0\Floating Point Division.runtimeconfig.json
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\bin\Debug\netcoreapp2.0\Floating Point Division.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\bin\Debug\netcoreapp2.0\Floating Point Division.dll
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\bin\Debug\netcoreapp2.0\Floating Point Division.pdb
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\obj\Debug\netcoreapp2.0\Floating Point Division.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\obj\Debug\netcoreapp2.0\Floating Point Division.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\obj\Debug\netcoreapp2.0\Floating Point Division.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\obj\Debug\netcoreapp2.0\Floating Point Division.AssemblyInfo.cs
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\obj\Debug\netcoreapp2.0\Floating Point Division.dll
+c:\users\kireto\source\repos\Data Types and Variables\Floating Point Division\obj\Debug\netcoreapp2.0\Floating Point Division.pdb

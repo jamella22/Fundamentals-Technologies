@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\obj\Debug\netcoreapp2.0\Center Point.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\obj\Debug\netcoreapp2.0\Center Point.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\obj\Debug\netcoreapp2.0\Center Point.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\obj\Debug\netcoreapp2.0\Center Point.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\bin\Debug\netcoreapp2.0\Center Point.deps.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\bin\Debug\netcoreapp2.0\Center Point.runtimeconfig.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\bin\Debug\netcoreapp2.0\Center Point.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\bin\Debug\netcoreapp2.0\Center Point.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\bin\Debug\netcoreapp2.0\Center Point.pdb
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\obj\Debug\netcoreapp2.0\Center Point.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Fibunacci\obj\Debug\netcoreapp2.0\Center Point.pdb

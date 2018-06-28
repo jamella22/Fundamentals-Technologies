@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\obj\Debug\netcoreapp2.0\TryCatchh.csprojResolveAssemblyReference.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\obj\Debug\netcoreapp2.0\TryCatchh.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\obj\Debug\netcoreapp2.0\TryCatchh.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\obj\Debug\netcoreapp2.0\TryCatchh.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\bin\Debug\netcoreapp2.0\TryCatchh.deps.json
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\bin\Debug\netcoreapp2.0\TryCatchh.runtimeconfig.json
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\bin\Debug\netcoreapp2.0\TryCatchh.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\bin\Debug\netcoreapp2.0\TryCatchh.dll
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\bin\Debug\netcoreapp2.0\TryCatchh.pdb
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\obj\Debug\netcoreapp2.0\TryCatchh.dll
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatchh\obj\Debug\netcoreapp2.0\TryCatchh.pdb

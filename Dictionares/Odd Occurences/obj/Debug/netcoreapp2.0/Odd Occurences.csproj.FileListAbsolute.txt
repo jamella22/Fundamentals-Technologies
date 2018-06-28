@@ -1,0 +1,10 @@
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\bin\Debug\netcoreapp2.0\Odd Occurences.deps.json
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\bin\Debug\netcoreapp2.0\Odd Occurences.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\bin\Debug\netcoreapp2.0\Odd Occurences.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\bin\Debug\netcoreapp2.0\Odd Occurences.dll
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\bin\Debug\netcoreapp2.0\Odd Occurences.pdb
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\obj\Debug\netcoreapp2.0\Odd Occurences.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\obj\Debug\netcoreapp2.0\Odd Occurences.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\obj\Debug\netcoreapp2.0\Odd Occurences.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\obj\Debug\netcoreapp2.0\Odd Occurences.dll
+c:\users\kireto\source\repos\Dictionares\Odd Occurences\obj\Debug\netcoreapp2.0\Odd Occurences.pdb

@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp2.0\Bevarage Labels.deps.json
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp2.0\Bevarage Labels.runtimeconfig.json
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp2.0\Bevarage Labels.runtimeconfig.dev.json
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp2.0\Bevarage Labels.dll
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\bin\Debug\netcoreapp2.0\Bevarage Labels.pdb
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp2.0\Bevarage Labels.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp2.0\Bevarage Labels.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp2.0\Bevarage Labels.AssemblyInfo.cs
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp2.0\Bevarage Labels.dll
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp2.0\Bevarage Labels.pdb
+C:\Users\Kireto\source\repos\ConsoleApp1\ConsoleApp3\obj\Debug\netcoreapp2.0\Bevarage Labels.csprojAssemblyReference.cache

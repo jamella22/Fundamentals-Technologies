@@ -1,0 +1,4 @@
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatch\obj\Debug\netcoreapp2.0\TryCatch.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatch\obj\Debug\netcoreapp2.0\TryCatch.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatch\obj\Debug\netcoreapp2.0\TryCatch.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\ConsoleApp2\TryCatch\obj\Debug\netcoreapp2.0\TryCatch.csprojResolveAssemblyReference.cache

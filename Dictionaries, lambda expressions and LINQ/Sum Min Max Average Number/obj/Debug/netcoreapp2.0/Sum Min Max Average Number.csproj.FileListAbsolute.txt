@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\bin\Debug\netcoreapp2.0\Sum Min Max Average Number.deps.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\bin\Debug\netcoreapp2.0\Sum Min Max Average Number.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\bin\Debug\netcoreapp2.0\Sum Min Max Average Number.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\bin\Debug\netcoreapp2.0\Sum Min Max Average Number.dll
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\bin\Debug\netcoreapp2.0\Sum Min Max Average Number.pdb
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\obj\Debug\netcoreapp2.0\Sum Min Max Average Number.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\obj\Debug\netcoreapp2.0\Sum Min Max Average Number.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\obj\Debug\netcoreapp2.0\Sum Min Max Average Number.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\obj\Debug\netcoreapp2.0\Sum Min Max Average Number.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\obj\Debug\netcoreapp2.0\Sum Min Max Average Number.dll
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\Sum Min Max Average Number\obj\Debug\netcoreapp2.0\Sum Min Max Average Number.pdb

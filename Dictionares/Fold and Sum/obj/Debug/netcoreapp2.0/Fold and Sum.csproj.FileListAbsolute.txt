@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\bin\Debug\netcoreapp2.0\Fold and Sum.deps.json
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\bin\Debug\netcoreapp2.0\Fold and Sum.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\bin\Debug\netcoreapp2.0\Fold and Sum.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\bin\Debug\netcoreapp2.0\Fold and Sum.dll
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\bin\Debug\netcoreapp2.0\Fold and Sum.pdb
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\obj\Debug\netcoreapp2.0\Fold and Sum.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\obj\Debug\netcoreapp2.0\Fold and Sum.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\obj\Debug\netcoreapp2.0\Fold and Sum.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\obj\Debug\netcoreapp2.0\Fold and Sum.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\obj\Debug\netcoreapp2.0\Fold and Sum.dll
+c:\users\kireto\source\repos\Dictionares\Fold and Sum\obj\Debug\netcoreapp2.0\Fold and Sum.pdb

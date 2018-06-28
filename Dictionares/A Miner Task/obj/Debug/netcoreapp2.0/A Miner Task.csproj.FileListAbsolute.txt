@@ -1,0 +1,10 @@
+c:\users\kireto\source\repos\Dictionares\A Miner Task\bin\Debug\netcoreapp2.0\A Miner Task.deps.json
+c:\users\kireto\source\repos\Dictionares\A Miner Task\bin\Debug\netcoreapp2.0\A Miner Task.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionares\A Miner Task\bin\Debug\netcoreapp2.0\A Miner Task.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionares\A Miner Task\bin\Debug\netcoreapp2.0\A Miner Task.dll
+c:\users\kireto\source\repos\Dictionares\A Miner Task\bin\Debug\netcoreapp2.0\A Miner Task.pdb
+c:\users\kireto\source\repos\Dictionares\A Miner Task\obj\Debug\netcoreapp2.0\A Miner Task.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionares\A Miner Task\obj\Debug\netcoreapp2.0\A Miner Task.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionares\A Miner Task\obj\Debug\netcoreapp2.0\A Miner Task.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionares\A Miner Task\obj\Debug\netcoreapp2.0\A Miner Task.dll
+c:\users\kireto\source\repos\Dictionares\A Miner Task\obj\Debug\netcoreapp2.0\A Miner Task.pdb

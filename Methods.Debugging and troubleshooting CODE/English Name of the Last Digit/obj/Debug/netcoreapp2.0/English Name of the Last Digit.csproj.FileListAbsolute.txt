@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\obj\Debug\netcoreapp2.0\English Name of the Last Digit.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\obj\Debug\netcoreapp2.0\English Name of the Last Digit.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\obj\Debug\netcoreapp2.0\English Name of the Last Digit.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\obj\Debug\netcoreapp2.0\English Name of the Last Digit.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\bin\Debug\netcoreapp2.0\English Name of the Last Digit.deps.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\bin\Debug\netcoreapp2.0\English Name of the Last Digit.runtimeconfig.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\bin\Debug\netcoreapp2.0\English Name of the Last Digit.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\bin\Debug\netcoreapp2.0\English Name of the Last Digit.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\bin\Debug\netcoreapp2.0\English Name of the Last Digit.pdb
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\obj\Debug\netcoreapp2.0\English Name of the Last Digit.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\English Name of the Last Digit\obj\Debug\netcoreapp2.0\English Name of the Last Digit.pdb

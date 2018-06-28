@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\bin\Debug\netcoreapp2.0\Big Factorial.deps.json
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\bin\Debug\netcoreapp2.0\Big Factorial.runtimeconfig.json
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\bin\Debug\netcoreapp2.0\Big Factorial.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\bin\Debug\netcoreapp2.0\Big Factorial.dll
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\bin\Debug\netcoreapp2.0\Big Factorial.pdb
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\obj\Debug\netcoreapp2.0\Big Factorial.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\obj\Debug\netcoreapp2.0\Big Factorial.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\obj\Debug\netcoreapp2.0\Big Factorial.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\obj\Debug\netcoreapp2.0\Big Factorial.AssemblyInfo.cs
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\obj\Debug\netcoreapp2.0\Big Factorial.dll
+c:\users\kireto\source\repos\Objects AND CLASSES\Big Factorial\obj\Debug\netcoreapp2.0\Big Factorial.pdb

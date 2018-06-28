@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Centuries.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Centuries.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Centuries.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Centuries.AssemblyInfo.cs
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Centuries.deps.json
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Centuries.runtimeconfig.json
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Centuries.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Centuries.dll
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Centuries.pdb
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Centuries.dll
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Centuries.pdb

@@ -1,0 +1,11 @@
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\bin\Debug\netcoreapp2.0\Reverse an Array of Integersd.deps.json
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\bin\Debug\netcoreapp2.0\Reverse an Array of Integersd.runtimeconfig.json
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\bin\Debug\netcoreapp2.0\Reverse an Array of Integersd.runtimeconfig.dev.json
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\bin\Debug\netcoreapp2.0\Reverse an Array of Integersd.dll
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\bin\Debug\netcoreapp2.0\Reverse an Array of Integersd.pdb
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\obj\Debug\netcoreapp2.0\Reverse an Array of Integersd.csproj.CoreCompileInputs.cache
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\obj\Debug\netcoreapp2.0\Reverse an Array of Integersd.AssemblyInfoInputs.cache
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\obj\Debug\netcoreapp2.0\Reverse an Array of Integersd.AssemblyInfo.cs
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\obj\Debug\netcoreapp2.0\Reverse an Array of Integersd.dll
+c:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\obj\Debug\netcoreapp2.0\Reverse an Array of Integersd.pdb
+C:\Users\Kireto\source\repos\Arrays\Reverse an Array of Integersd\obj\Debug\netcoreapp2.0\Reverse an Array of Integersd.csprojAssemblyReference.cache

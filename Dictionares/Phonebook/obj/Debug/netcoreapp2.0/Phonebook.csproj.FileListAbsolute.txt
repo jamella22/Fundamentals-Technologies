@@ -1,0 +1,10 @@
+c:\users\kireto\source\repos\Dictionares\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.deps.json
+c:\users\kireto\source\repos\Dictionares\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionares\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionares\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.dll
+c:\users\kireto\source\repos\Dictionares\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.pdb
+c:\users\kireto\source\repos\Dictionares\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionares\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionares\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionares\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.dll
+c:\users\kireto\source\repos\Dictionares\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.pdb

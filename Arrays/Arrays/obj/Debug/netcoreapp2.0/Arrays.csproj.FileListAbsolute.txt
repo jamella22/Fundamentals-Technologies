@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.deps.json
+c:\users\kireto\source\repos\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.runtimeconfig.json
+c:\users\kireto\source\repos\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.dll
+c:\users\kireto\source\repos\Arrays\Arrays\bin\Debug\netcoreapp2.0\Arrays.pdb
+c:\users\kireto\source\repos\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.AssemblyInfo.cs
+c:\users\kireto\source\repos\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.dll
+c:\users\kireto\source\repos\Arrays\Arrays\obj\Debug\netcoreapp2.0\Arrays.pdb

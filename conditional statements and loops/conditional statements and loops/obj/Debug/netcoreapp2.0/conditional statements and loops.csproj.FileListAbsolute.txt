@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\bin\Debug\netcoreapp2.0\conditional statements and loops.deps.json
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\bin\Debug\netcoreapp2.0\conditional statements and loops.runtimeconfig.json
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\bin\Debug\netcoreapp2.0\conditional statements and loops.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\bin\Debug\netcoreapp2.0\conditional statements and loops.dll
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\bin\Debug\netcoreapp2.0\conditional statements and loops.pdb
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\obj\Debug\netcoreapp2.0\conditional statements and loops.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\obj\Debug\netcoreapp2.0\conditional statements and loops.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\obj\Debug\netcoreapp2.0\conditional statements and loops.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\obj\Debug\netcoreapp2.0\conditional statements and loops.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\obj\Debug\netcoreapp2.0\conditional statements and loops.dll
+C:\Users\Kireto\source\repos\conditional statements and loops\conditional statements and loops\obj\Debug\netcoreapp2.0\conditional statements and loops.pdb

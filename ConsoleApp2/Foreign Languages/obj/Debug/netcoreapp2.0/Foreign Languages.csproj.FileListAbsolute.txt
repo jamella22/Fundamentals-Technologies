@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\bin\Debug\netcoreapp2.0\Foreign Languages.deps.json
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\bin\Debug\netcoreapp2.0\Foreign Languages.runtimeconfig.json
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\bin\Debug\netcoreapp2.0\Foreign Languages.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\bin\Debug\netcoreapp2.0\Foreign Languages.dll
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\bin\Debug\netcoreapp2.0\Foreign Languages.pdb
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\obj\Debug\netcoreapp2.0\Foreign Languages.csprojResolveAssemblyReference.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\obj\Debug\netcoreapp2.0\Foreign Languages.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\obj\Debug\netcoreapp2.0\Foreign Languages.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\obj\Debug\netcoreapp2.0\Foreign Languages.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\obj\Debug\netcoreapp2.0\Foreign Languages.dll
+C:\Users\Kireto\source\repos\ConsoleApp2\Foreign Languages\obj\Debug\netcoreapp2.0\Foreign Languages.pdb

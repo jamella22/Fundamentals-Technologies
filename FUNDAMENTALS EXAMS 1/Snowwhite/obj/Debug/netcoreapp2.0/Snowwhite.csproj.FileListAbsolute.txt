@@ -1,0 +1,11 @@
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\bin\Debug\netcoreapp2.0\Snowwhite.deps.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\bin\Debug\netcoreapp2.0\Snowwhite.runtimeconfig.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\bin\Debug\netcoreapp2.0\Snowwhite.runtimeconfig.dev.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\bin\Debug\netcoreapp2.0\Snowwhite.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\bin\Debug\netcoreapp2.0\Snowwhite.pdb
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\obj\Debug\netcoreapp2.0\Snowwhite.csprojAssemblyReference.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\obj\Debug\netcoreapp2.0\Snowwhite.csproj.CoreCompileInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\obj\Debug\netcoreapp2.0\Snowwhite.AssemblyInfoInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\obj\Debug\netcoreapp2.0\Snowwhite.AssemblyInfo.cs
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\obj\Debug\netcoreapp2.0\Snowwhite.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowwhite\obj\Debug\netcoreapp2.0\Snowwhite.pdb

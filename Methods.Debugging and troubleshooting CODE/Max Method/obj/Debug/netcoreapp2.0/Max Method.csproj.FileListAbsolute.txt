@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\bin\Debug\netcoreapp2.0\Max Method.deps.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\bin\Debug\netcoreapp2.0\Max Method.runtimeconfig.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\bin\Debug\netcoreapp2.0\Max Method.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\bin\Debug\netcoreapp2.0\Max Method.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\bin\Debug\netcoreapp2.0\Max Method.pdb
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\obj\Debug\netcoreapp2.0\Max Method.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\obj\Debug\netcoreapp2.0\Max Method.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\obj\Debug\netcoreapp2.0\Max Method.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\obj\Debug\netcoreapp2.0\Max Method.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\obj\Debug\netcoreapp2.0\Max Method.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Max Method\obj\Debug\netcoreapp2.0\Max Method.pdb

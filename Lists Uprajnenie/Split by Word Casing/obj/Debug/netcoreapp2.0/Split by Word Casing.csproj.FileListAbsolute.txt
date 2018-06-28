@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\bin\Debug\netcoreapp2.0\Split by Word Casing.deps.json
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\bin\Debug\netcoreapp2.0\Split by Word Casing.runtimeconfig.json
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\bin\Debug\netcoreapp2.0\Split by Word Casing.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\bin\Debug\netcoreapp2.0\Split by Word Casing.dll
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\bin\Debug\netcoreapp2.0\Split by Word Casing.pdb
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\obj\Debug\netcoreapp2.0\Split by Word Casing.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\obj\Debug\netcoreapp2.0\Split by Word Casing.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\obj\Debug\netcoreapp2.0\Split by Word Casing.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\obj\Debug\netcoreapp2.0\Split by Word Casing.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\obj\Debug\netcoreapp2.0\Split by Word Casing.dll
+C:\Users\Kireto\source\repos\Lists Uprajnenie\Split by Word Casing\obj\Debug\netcoreapp2.0\Split by Word Casing.pdb

@@ -1,0 +1,11 @@
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\bin\Debug\netcoreapp2.0\Snowman.deps.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\bin\Debug\netcoreapp2.0\Snowman.runtimeconfig.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\bin\Debug\netcoreapp2.0\Snowman.runtimeconfig.dev.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\bin\Debug\netcoreapp2.0\Snowman.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\bin\Debug\netcoreapp2.0\Snowman.pdb
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\obj\Debug\netcoreapp2.0\Snowman.csprojAssemblyReference.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\obj\Debug\netcoreapp2.0\Snowman.csproj.CoreCompileInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\obj\Debug\netcoreapp2.0\Snowman.AssemblyInfoInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\obj\Debug\netcoreapp2.0\Snowman.AssemblyInfo.cs
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\obj\Debug\netcoreapp2.0\Snowman.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowman\obj\Debug\netcoreapp2.0\Snowman.pdb

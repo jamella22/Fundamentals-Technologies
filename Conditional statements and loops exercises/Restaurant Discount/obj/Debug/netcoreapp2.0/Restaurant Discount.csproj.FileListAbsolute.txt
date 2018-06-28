@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\bin\Debug\netcoreapp2.0\Restaurant Discount.deps.json
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\bin\Debug\netcoreapp2.0\Restaurant Discount.runtimeconfig.json
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\bin\Debug\netcoreapp2.0\Restaurant Discount.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\bin\Debug\netcoreapp2.0\Restaurant Discount.dll
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\bin\Debug\netcoreapp2.0\Restaurant Discount.pdb
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\obj\Debug\netcoreapp2.0\Restaurant Discount.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\obj\Debug\netcoreapp2.0\Restaurant Discount.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\obj\Debug\netcoreapp2.0\Restaurant Discount.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\obj\Debug\netcoreapp2.0\Restaurant Discount.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\obj\Debug\netcoreapp2.0\Restaurant Discount.dll
+C:\Users\Kireto\source\repos\Conditional statements and loops exercises\Restaurant Discount\obj\Debug\netcoreapp2.0\Restaurant Discount.pdb

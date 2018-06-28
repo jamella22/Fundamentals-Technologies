@@ -1,0 +1,4 @@
+c:\users\kireto\source\repos\Methods.Debugging and troubleshooting CODE\Methods.Debugging and troubleshooting CODE\obj\Debug\netcoreapp2.0\Methods.Debugging and troubleshooting CODE.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Methods.Debugging and troubleshooting CODE\Methods.Debugging and troubleshooting CODE\obj\Debug\netcoreapp2.0\Methods.Debugging and troubleshooting CODE.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Methods.Debugging and troubleshooting CODE\Methods.Debugging and troubleshooting CODE\obj\Debug\netcoreapp2.0\Methods.Debugging and troubleshooting CODE.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Methods.Debugging and troubleshooting CODE\Methods.Debugging and troubleshooting CODE\obj\Debug\netcoreapp2.0\Methods.Debugging and troubleshooting CODE.AssemblyInfo.cs

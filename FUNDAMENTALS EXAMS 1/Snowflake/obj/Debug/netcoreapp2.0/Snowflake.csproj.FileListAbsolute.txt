@@ -1,0 +1,11 @@
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\bin\Debug\netcoreapp2.0\Snowflake.deps.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\bin\Debug\netcoreapp2.0\Snowflake.runtimeconfig.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\bin\Debug\netcoreapp2.0\Snowflake.runtimeconfig.dev.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\bin\Debug\netcoreapp2.0\Snowflake.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\bin\Debug\netcoreapp2.0\Snowflake.pdb
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\obj\Debug\netcoreapp2.0\Snowflake.csprojAssemblyReference.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\obj\Debug\netcoreapp2.0\Snowflake.csproj.CoreCompileInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\obj\Debug\netcoreapp2.0\Snowflake.AssemblyInfoInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\obj\Debug\netcoreapp2.0\Snowflake.AssemblyInfo.cs
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\obj\Debug\netcoreapp2.0\Snowflake.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowflake\obj\Debug\netcoreapp2.0\Snowflake.pdb

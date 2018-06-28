@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\obj\Debug\netcoreapp2.0\lab Theatre Promotions.csprojResolveAssemblyReference.cache
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\obj\Debug\netcoreapp2.0\lab Theatre Promotions.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\obj\Debug\netcoreapp2.0\lab Theatre Promotions.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\obj\Debug\netcoreapp2.0\lab Theatre Promotions.AssemblyInfo.cs
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\bin\Debug\netcoreapp2.0\lab Theatre Promotions.deps.json
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\bin\Debug\netcoreapp2.0\lab Theatre Promotions.runtimeconfig.json
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\bin\Debug\netcoreapp2.0\lab Theatre Promotions.runtimeconfig.dev.json
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\bin\Debug\netcoreapp2.0\lab Theatre Promotions.dll
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\bin\Debug\netcoreapp2.0\lab Theatre Promotions.pdb
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\obj\Debug\netcoreapp2.0\lab Theatre Promotions.dll
+c:\users\kireto\source\repos\ConsoleApp1\lab Theatre Promotions\obj\Debug\netcoreapp2.0\lab Theatre Promotions.pdb

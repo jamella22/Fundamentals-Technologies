@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\bin\Debug\netcoreapp2.0\Boolean Variable.deps.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\bin\Debug\netcoreapp2.0\Boolean Variable.runtimeconfig.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\bin\Debug\netcoreapp2.0\Boolean Variable.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\bin\Debug\netcoreapp2.0\Boolean Variable.dll
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\bin\Debug\netcoreapp2.0\Boolean Variable.pdb
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\obj\Debug\netcoreapp2.0\Boolean Variable.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\obj\Debug\netcoreapp2.0\Boolean Variable.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\obj\Debug\netcoreapp2.0\Boolean Variable.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\obj\Debug\netcoreapp2.0\Boolean Variable.dll
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\obj\Debug\netcoreapp2.0\Boolean Variable.pdb
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\Boolean Variable\obj\Debug\netcoreapp2.0\Boolean Variable.csprojAssemblyReference.cache

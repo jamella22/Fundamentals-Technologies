@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\obj\Debug\netcoreapp2.0\problem 5 char FOR cycle.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\obj\Debug\netcoreapp2.0\problem 5 char FOR cycle.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\obj\Debug\netcoreapp2.0\problem 5 char FOR cycle.AssemblyInfo.cs
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\bin\Debug\netcoreapp2.0\problem 5 char FOR cycle.deps.json
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\bin\Debug\netcoreapp2.0\problem 5 char FOR cycle.runtimeconfig.json
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\bin\Debug\netcoreapp2.0\problem 5 char FOR cycle.runtimeconfig.dev.json
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\bin\Debug\netcoreapp2.0\problem 5 char FOR cycle.dll
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\bin\Debug\netcoreapp2.0\problem 5 char FOR cycle.pdb
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\obj\Debug\netcoreapp2.0\problem 5 char FOR cycle.dll
+c:\users\kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\obj\Debug\netcoreapp2.0\problem 5 char FOR cycle.pdb
+C:\Users\Kireto\source\repos\ConsoleApp1\problem 5 char FOR cycle\obj\Debug\netcoreapp2.0\problem 5 char FOR cycle.csprojAssemblyReference.cache

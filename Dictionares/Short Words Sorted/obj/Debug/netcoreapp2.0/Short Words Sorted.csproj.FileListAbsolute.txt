@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\bin\Debug\netcoreapp2.0\Short Words Sorted.deps.json
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\bin\Debug\netcoreapp2.0\Short Words Sorted.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\bin\Debug\netcoreapp2.0\Short Words Sorted.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\bin\Debug\netcoreapp2.0\Short Words Sorted.dll
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\bin\Debug\netcoreapp2.0\Short Words Sorted.pdb
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\obj\Debug\netcoreapp2.0\Short Words Sorted.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\obj\Debug\netcoreapp2.0\Short Words Sorted.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\obj\Debug\netcoreapp2.0\Short Words Sorted.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\obj\Debug\netcoreapp2.0\Short Words Sorted.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\obj\Debug\netcoreapp2.0\Short Words Sorted.dll
+c:\users\kireto\source\repos\Dictionares\Short Words Sorted\obj\Debug\netcoreapp2.0\Short Words Sorted.pdb

@@ -1,0 +1,10 @@
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\bin\Debug\netcoreapp2.0\String and Objects.deps.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\bin\Debug\netcoreapp2.0\String and Objects.runtimeconfig.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\bin\Debug\netcoreapp2.0\String and Objects.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\bin\Debug\netcoreapp2.0\String and Objects.dll
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\bin\Debug\netcoreapp2.0\String and Objects.pdb
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\obj\Debug\netcoreapp2.0\String and Objects.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\obj\Debug\netcoreapp2.0\String and Objects.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\obj\Debug\netcoreapp2.0\String and Objects.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\obj\Debug\netcoreapp2.0\String and Objects.dll
+C:\Users\Kireto\source\repos\Data Types and Variables Exercises\String and Objects\obj\Debug\netcoreapp2.0\String and Objects.pdb

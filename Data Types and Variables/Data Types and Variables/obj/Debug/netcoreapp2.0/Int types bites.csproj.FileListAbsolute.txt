@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Int types bites.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Int types bites.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Int types bites.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Int types bites.AssemblyInfo.cs
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Int types bites.deps.json
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Int types bites.runtimeconfig.json
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Int types bites.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Int types bites.dll
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\bin\Debug\netcoreapp2.0\Int types bites.pdb
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Int types bites.dll
+c:\users\kireto\source\repos\Data Types and Variables\Data Types and Variables\obj\Debug\netcoreapp2.0\Int types bites.pdb

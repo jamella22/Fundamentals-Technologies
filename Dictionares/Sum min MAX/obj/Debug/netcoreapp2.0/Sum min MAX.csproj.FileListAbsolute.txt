@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\bin\Debug\netcoreapp2.0\Sum min MAX.deps.json
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\bin\Debug\netcoreapp2.0\Sum min MAX.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\bin\Debug\netcoreapp2.0\Sum min MAX.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\bin\Debug\netcoreapp2.0\Sum min MAX.dll
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\bin\Debug\netcoreapp2.0\Sum min MAX.pdb
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\obj\Debug\netcoreapp2.0\Sum min MAX.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\obj\Debug\netcoreapp2.0\Sum min MAX.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\obj\Debug\netcoreapp2.0\Sum min MAX.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\obj\Debug\netcoreapp2.0\Sum min MAX.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\obj\Debug\netcoreapp2.0\Sum min MAX.dll
+c:\users\kireto\source\repos\Dictionares\Sum min MAX\obj\Debug\netcoreapp2.0\Sum min MAX.pdb

@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\bin\Debug\netcoreapp2.0\Choose a Drink.deps.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\bin\Debug\netcoreapp2.0\Choose a Drink.runtimeconfig.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\bin\Debug\netcoreapp2.0\Choose a Drink.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\bin\Debug\netcoreapp2.0\Choose a Drink.dll
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\bin\Debug\netcoreapp2.0\Choose a Drink.pdb
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\obj\Debug\netcoreapp2.0\Choose a Drink.csprojResolveAssemblyReference.cache
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\obj\Debug\netcoreapp2.0\Choose a Drink.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\obj\Debug\netcoreapp2.0\Choose a Drink.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\obj\Debug\netcoreapp2.0\Choose a Drink.AssemblyInfo.cs
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\obj\Debug\netcoreapp2.0\Choose a Drink.dll
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Choose a Drink\obj\Debug\netcoreapp2.0\Choose a Drink.pdb

@@ -1,0 +1,10 @@
+c:\users\kireto\source\repos\Dictionares\Fix Emails\bin\Debug\netcoreapp2.0\Fix Emails.deps.json
+c:\users\kireto\source\repos\Dictionares\Fix Emails\bin\Debug\netcoreapp2.0\Fix Emails.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionares\Fix Emails\bin\Debug\netcoreapp2.0\Fix Emails.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionares\Fix Emails\bin\Debug\netcoreapp2.0\Fix Emails.dll
+c:\users\kireto\source\repos\Dictionares\Fix Emails\bin\Debug\netcoreapp2.0\Fix Emails.pdb
+c:\users\kireto\source\repos\Dictionares\Fix Emails\obj\Debug\netcoreapp2.0\Fix Emails.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionares\Fix Emails\obj\Debug\netcoreapp2.0\Fix Emails.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionares\Fix Emails\obj\Debug\netcoreapp2.0\Fix Emails.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionares\Fix Emails\obj\Debug\netcoreapp2.0\Fix Emails.dll
+c:\users\kireto\source\repos\Dictionares\Fix Emails\obj\Debug\netcoreapp2.0\Fix Emails.pdb

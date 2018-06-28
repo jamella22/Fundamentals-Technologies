@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\obj\Debug\netcoreapp2.0\Restourtant.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\obj\Debug\netcoreapp2.0\Restourtant.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\obj\Debug\netcoreapp2.0\Restourtant.AssemblyInfo.cs
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\bin\Debug\netcoreapp2.0\Restourtant.deps.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\bin\Debug\netcoreapp2.0\Restourtant.runtimeconfig.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\bin\Debug\netcoreapp2.0\Restourtant.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\bin\Debug\netcoreapp2.0\Restourtant.dll
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\bin\Debug\netcoreapp2.0\Restourtant.pdb
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\obj\Debug\netcoreapp2.0\Restourtant.csprojResolveAssemblyReference.cache
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\obj\Debug\netcoreapp2.0\Restourtant.dll
+c:\users\kireto\source\repos\Conditional statements and loops exercises\Restourtant\obj\Debug\netcoreapp2.0\Restourtant.pdb

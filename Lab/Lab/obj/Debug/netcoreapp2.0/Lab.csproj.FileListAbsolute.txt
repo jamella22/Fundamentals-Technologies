@@ -1,0 +1,11 @@
+C:\Users\Kireto\source\repos\Lab\Lab\bin\Debug\netcoreapp2.0\Lab.deps.json
+C:\Users\Kireto\source\repos\Lab\Lab\bin\Debug\netcoreapp2.0\Lab.runtimeconfig.json
+C:\Users\Kireto\source\repos\Lab\Lab\bin\Debug\netcoreapp2.0\Lab.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Lab\Lab\bin\Debug\netcoreapp2.0\Lab.dll
+C:\Users\Kireto\source\repos\Lab\Lab\bin\Debug\netcoreapp2.0\Lab.pdb
+C:\Users\Kireto\source\repos\Lab\Lab\obj\Debug\netcoreapp2.0\Lab.csprojAssemblyReference.cache
+C:\Users\Kireto\source\repos\Lab\Lab\obj\Debug\netcoreapp2.0\Lab.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Lab\Lab\obj\Debug\netcoreapp2.0\Lab.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Lab\Lab\obj\Debug\netcoreapp2.0\Lab.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Lab\Lab\obj\Debug\netcoreapp2.0\Lab.dll
+C:\Users\Kireto\source\repos\Lab\Lab\obj\Debug\netcoreapp2.0\Lab.pdb

@@ -1,0 +1,10 @@
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\bin\Debug\netcoreapp2.0\Prime Checker For.deps.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\bin\Debug\netcoreapp2.0\Prime Checker For.runtimeconfig.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\bin\Debug\netcoreapp2.0\Prime Checker For.runtimeconfig.dev.json
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\bin\Debug\netcoreapp2.0\Prime Checker For.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\bin\Debug\netcoreapp2.0\Prime Checker For.pdb
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\obj\Debug\netcoreapp2.0\Prime Checker For.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\obj\Debug\netcoreapp2.0\Prime Checker For.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\obj\Debug\netcoreapp2.0\Prime Checker For.AssemblyInfo.cs
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\obj\Debug\netcoreapp2.0\Prime Checker For.dll
+C:\Users\Kireto\source\repos\Methods.Debugging and troubleshooting CODE\Prime Checker For\obj\Debug\netcoreapp2.0\Prime Checker For.pdb

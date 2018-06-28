@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\obj\Debug\netcoreapp2.0\Objects AND CLASSES.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\obj\Debug\netcoreapp2.0\Objects AND CLASSES.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\obj\Debug\netcoreapp2.0\Objects AND CLASSES.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\obj\Debug\netcoreapp2.0\Objects AND CLASSES.AssemblyInfo.cs
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\bin\Debug\netcoreapp2.0\Objects AND CLASSES.deps.json
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\bin\Debug\netcoreapp2.0\Objects AND CLASSES.runtimeconfig.json
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\bin\Debug\netcoreapp2.0\Objects AND CLASSES.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\bin\Debug\netcoreapp2.0\Objects AND CLASSES.dll
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\bin\Debug\netcoreapp2.0\Objects AND CLASSES.pdb
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\obj\Debug\netcoreapp2.0\Objects AND CLASSES.dll
+c:\users\kireto\source\repos\Objects AND CLASSES\Objects AND CLASSES\obj\Debug\netcoreapp2.0\Objects AND CLASSES.pdb

@@ -1,0 +1,11 @@
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\bin\Debug\netcoreapp2.0\Snowballs.deps.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\bin\Debug\netcoreapp2.0\Snowballs.runtimeconfig.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\bin\Debug\netcoreapp2.0\Snowballs.runtimeconfig.dev.json
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\bin\Debug\netcoreapp2.0\Snowballs.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\bin\Debug\netcoreapp2.0\Snowballs.pdb
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\obj\Debug\netcoreapp2.0\Snowballs.csprojAssemblyReference.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\obj\Debug\netcoreapp2.0\Snowballs.csproj.CoreCompileInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\obj\Debug\netcoreapp2.0\Snowballs.AssemblyInfoInputs.cache
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\obj\Debug\netcoreapp2.0\Snowballs.AssemblyInfo.cs
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\obj\Debug\netcoreapp2.0\Snowballs.dll
+c:\Users\Kireto\source\repos\FUNDAMENTALS EXAMS 1\Snowballs\obj\Debug\netcoreapp2.0\Snowballs.pdb

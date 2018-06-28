@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\bin\Debug\netcoreapp2.0\Exchange variables values.deps.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\bin\Debug\netcoreapp2.0\Exchange variables values.runtimeconfig.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\bin\Debug\netcoreapp2.0\Exchange variables values.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\bin\Debug\netcoreapp2.0\Exchange variables values.dll
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\bin\Debug\netcoreapp2.0\Exchange variables values.pdb
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\obj\Debug\netcoreapp2.0\Exchange variables values.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\obj\Debug\netcoreapp2.0\Exchange variables values.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\obj\Debug\netcoreapp2.0\Exchange variables values.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\obj\Debug\netcoreapp2.0\Exchange variables values.AssemblyInfo.cs
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\obj\Debug\netcoreapp2.0\Exchange variables values.dll
+c:\users\kireto\source\repos\Data Types and Variables Exercises\Exchange variables values\obj\Debug\netcoreapp2.0\Exchange variables values.pdb

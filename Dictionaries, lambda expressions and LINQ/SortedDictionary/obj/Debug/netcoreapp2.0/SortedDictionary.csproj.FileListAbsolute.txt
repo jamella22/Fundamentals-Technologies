@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\bin\Debug\netcoreapp2.0\SortedDictionary.deps.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\bin\Debug\netcoreapp2.0\SortedDictionary.runtimeconfig.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\bin\Debug\netcoreapp2.0\SortedDictionary.runtimeconfig.dev.json
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\bin\Debug\netcoreapp2.0\SortedDictionary.dll
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\bin\Debug\netcoreapp2.0\SortedDictionary.pdb
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\obj\Debug\netcoreapp2.0\SortedDictionary.csprojAssemblyReference.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\obj\Debug\netcoreapp2.0\SortedDictionary.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\obj\Debug\netcoreapp2.0\SortedDictionary.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\obj\Debug\netcoreapp2.0\SortedDictionary.AssemblyInfo.cs
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\obj\Debug\netcoreapp2.0\SortedDictionary.dll
+c:\users\kireto\source\repos\Dictionaries, lambda expressions and LINQ\SortedDictionary\obj\Debug\netcoreapp2.0\SortedDictionary.pdb

@@ -1,0 +1,3 @@
+C:\Users\Kireto\source\repos\Array exercises\Array exercises\obj\Debug\netcoreapp2.0\Reversed for loop.csproj.CoreCompileInputs.cache
+C:\Users\Kireto\source\repos\Array exercises\Array exercises\obj\Debug\netcoreapp2.0\Reversed for loop.AssemblyInfoInputs.cache
+C:\Users\Kireto\source\repos\Array exercises\Array exercises\obj\Debug\netcoreapp2.0\Reversed for loop.AssemblyInfo.cs

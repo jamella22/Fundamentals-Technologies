@@ -1,0 +1,11 @@
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Exercises.deps.json
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Exercises.runtimeconfig.json
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Exercises.runtimeconfig.dev.json
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Exercises.dll
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp2.0\Exercises.pdb
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Exercises.csprojResolveAssemblyReference.cache
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Exercises.csproj.CoreCompileInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Exercises.AssemblyInfoInputs.cache
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Exercises.AssemblyInfo.cs
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Exercises.dll
+c:\users\kireto\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp2.0\Exercises.pdb
