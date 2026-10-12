@@ -837,7 +837,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   <aside id="side">
     <header>
       <h1>Малки и средни язовири</h1>
-      <p class="lead">Именуваните язовири в България, плюс проверените спортни водоеми. Обемът на големите държавни язовири е от бюлетин №1650 на МОСВ, 09.10.2026 г., 8:00 ч. Малките и платените водоеми ги няма в този бюлетин. Билетът на ИАРА е отделно: 12 / 16 / 30 / 50 лв. Фейсбук има само където страницата се отвори.</p><p class="lead" id="countLine"></p>
+      <p class="lead">Именуваните язовири в България, плюс проверените спортни водоеми. Обемът на големите държавни язовири е от бюлетин №1650 на МОСВ, 09.10.2026 г., 8:00 ч. Малките и платените водоеми ги няма в този бюлетин. От всяка точка има „Релеф“: брег, модел на дълбочината по този обем и 3D. Билетът на ИАРА е отделно: 12 / 16 / 30 / 50 лв. Фейсбук има само където страницата се отвори.</p><p class="lead" id="countLine"></p>
     </header>
     <div class="tools">
       <input id="q" type="search" placeholder="Търси язовир, риба, град" autocomplete="off">
@@ -1592,11 +1592,20 @@ function phones(item) {
   return [item.phone, item.phone2].filter(Boolean);
 }
 
+function reliefHref(id) {
+  const href = location.href;
+  const i = href.lastIndexOf("sportni-yazoviri.html");
+  const tail = "relef.html?e=" + encodeURIComponent(id);
+  if (i < 0) return tail;
+  return href.slice(0, i) + tail;
+}
+
 function cardHtml(item) {
   const tel = phones(item).map(p => `<a href="tel:${p.replace(/\s/g, "")}">${p}</a>`).join(" · ");
   const g = item.lat
     ? `<a target="_blank" rel="noopener" href="https://www.google.com/maps?q=${item.lat},${item.lon}">Google Maps</a>`
     : "";
+  const relief = item.lat ? ` · <a href="${reliefHref(item.id)}">Релеф</a>` : "";
   const site = item.link ? ` · <a target="_blank" rel="noopener" href="${item.link}">Сайт</a>` : "";
   const fb = item.facebook ? ` · <a target="_blank" rel="noopener" href="${item.facebook}">Facebook</a>` : "";
   const vol = item.volume ? `<p><b>Обем.</b> ${item.volume}</p>` : "";
@@ -1611,7 +1620,7 @@ function cardHtml(item) {
     <p><b>Стръв.</b> ${item.bait}</p>
     <p><b>Престой.</b> ${item.stay}</p>
     <p>${tel ? "<b>Телефон.</b> " + tel + "<br>" : ""}<span class="tag">${item.pin || "Без проверена точка"}</span></p>
-    <p>${g}${site}${fb}</p>
+    <p>${g}${site}${fb}${relief}</p>
   </div>`;
 }
 
