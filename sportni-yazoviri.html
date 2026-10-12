@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Малки и средни язовири за спортен риболов</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root {
+    --ink: #1c2430;
+    --paper: #f3efe6;
+    --line: #d9d1c3;
+    --muted: #5e6874;
+    --card: #fffdf8;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    font-family: "Segoe UI", "PT Sans", "Noto Sans", sans-serif;
+    color: var(--ink);
+    background: var(--ink);
+  }
+  #app { display: flex; height: 100%; }
+  aside {
+    width: 390px;
+    flex: 0 0 390px;
+    background: var(--paper);
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    border-right: 1px solid #c9c0b2;
+  }
+  header { padding: 16px 16px 10px; }
+  h1 { font-size: 22px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .lead { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
+  .tools { padding: 0 16px 8px; }
+  input[type="search"] {
+    width: 100%;
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 10px;
+    padding: 10px 12px;
+    font: inherit;
+    font-size: 15px;
+  }
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 16px 10px; }
+  .filters button, .bar button, .list button.item, .ghost {
+    font: inherit;
+    cursor: pointer;
+  }
+  .filters button {
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 999px;
+    padding: 5px 10px;
+    font-size: 12.5px;
+  }
+  .filters button.on { color: #fff; border-color: transparent; }
+  #list {
+    list-style: none;
+    margin: 0;
+    padding: 0 10px 16px;
+    overflow: auto;
+    min-height: 0;
+  }
+  .list button.item {
+    width: 100%;
+    text-align: left;
+    border: 0;
+    background: transparent;
+    border-radius: 10px;
+    padding: 8px 8px;
+    display: grid;
+    grid-template-columns: 14px 1fr;
+    gap: 2px 8px;
+    align-items: center;
+  }
+  .list button.item strong { font-size: 15px; }
+  .list button.item span { grid-column: 2; color: var(--muted); font-size: 12.5px; }
+  .list button.item:hover, .list button.item.on { background: #e7efe4; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; box-shadow: 0 0 0 2px #fff; }
+  h2 {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 14px 8px 4px;
+  }
+  .card {
+    margin: 4px 8px 10px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-size: 13.5px;
+    line-height: 1.45;
+  }
+  .card p { margin: 0 0 6px; }
+  .card a { color: #0f4c81; }
+  main { flex: 1; position: relative; min-width: 0; }
+  #map { height: 100%; background: #d5dde4; }
+  .bar {
+    position: absolute;
+    z-index: 500;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+  }
+  .bar button, #menuBtn {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 8px 12px;
+    box-shadow: 0 2px 8px rgba(28,36,48,.12);
+  }
+  #menuBtn { display: none; position: absolute; z-index: 600; top: 12px; left: 12px; }
+  .pin { background: transparent; border: none; }
+  .pin span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.35);
+  }
+  .pin.on span { width: 20px; height: 20px; }
+  .leaflet-popup-content-wrapper { border-radius: 14px; }
+  .leaflet-popup-content { margin: 12px 14px; width: 280px; }
+  .pop h3 { margin: 0 0 2px; font-size: 18px; }
+  .pop .meta { color: var(--muted); font-size: 12.5px; margin-bottom: 8px; }
+  .pop p { margin: 0 0 6px; font-size: 13.5px; line-height: 1.4; }
+  .pop .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 999px;
+    background: #eef3ea;
+    color: #35503a;
+  }
+  .miss { color: #7a4b12; }
+  @media (max-width: 800px) {
+    #app { display: block; }
+    aside {
+      position: absolute;
+      z-index: 700;
+      inset: 0 auto 0 0;
+      width: min(100%, 420px);
+      transform: translateX(-105%);
+      transition: transform .2s ease;
+      box-shadow: 8px 0 24px rgba(0,0,0,.2);
+    }
+    aside.open { transform: none; }
+    #menuBtn { display: block; }
+    main { height: 100%; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <button id="menuBtn" type="button">Списък</button>
+  <aside id="side">
+    <header>
+      <h1>Малки и средни язовири</h1>
+      <p class="lead">Спортен риболов по региони. Точките са от OpenStreetMap, сайтове и публикувани координати. Цените са към 12 октомври 2026 г. Билетът на ИАРА е отделно: 12 лв. седмичен, 16 лв. месечен, 30 лв. за 6 месеца, 50 лв. годишен.</p>
+    </header>
+    <div class="tools">
+      <input id="q" type="search" placeholder="Търси язовир, риба, град" autocomplete="off">
+    </div>
+    <div class="filters" id="filters"></div>
+    <ul class="list" id="list"></ul>
+  </aside>
+  <main>
+    <div class="bar">
+      <button id="baseBtn" type="button">Сателит</button>
+      <button id="fitBtn" type="button">Цялата страна</button>
+    </div>
+    <div id="map"></div>
+  </main>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+const REGIONS = [
+  { id: "all", name: "Всички", color: "#1c2430" },
+  { id: "nw", name: "Северозапад", color: "#1e4d8c" },
+  { id: "nc", name: "Северна централна", color: "#1a6b4a" },
+  { id: "ne", name: "Североизток", color: "#b86e00" },
+  { id: "sw", name: "Югозапад", color: "#6d3b8f" },
+  { id: "sc", name: "Южна централна", color: "#a33b3b" },
+  { id: "se", name: "Югоизток", color: "#0f6f86" }
+];
+const regionName = Object.fromEntries(REGIONS.map(r => [r.id, r.name]));
+const regionColor = Object.fromEntries(REGIONS.map(r => [r.id, r.color]));
+
+const LAKES = [
+  {
+    id: "dabnika", region: "nw", name: "Дъбника",
+    place: "1 км източно от Враца",
+    lat: 43.20637, lon: 23.58442, pin: "Център на надписания водоем в OpenStreetMap",
+    kind: "От 21.08.2024 г. го стопанисва СНЦ „Заедно за язовир Дъбника“ за 5 години. Около 2×1 км.",
+    fish: "Шаран, често над 10 кг и върнат обратно, сом, щука, амур, толстолоб, лин, таранка. Билбордът сочи над 30 вида, със зарибяване и на есетра и веслонос.",
+    fee: "Годишна карта 40 лв. По 20 лв. за пенсионери над 65 г., хора с увреждания и възраст 14–18 г. Под 14 г. безплатно. Отгоре е билетът на ИАРА.",
+    rules: "По текста в ribar.net риболовът е през светлата част на деня. Преди тръгване виж и страницата на сдружението.",
+    stay: "Източният бряг се ползва за пикник и палатка по черен път. Организиран къмпинг няма.",
+    phone: "",
+    bait: "Червей, царевица и каша за таранка и по-дребен шаран. За едрия шаран — бойли, само през разрешения часови прозорец."
+  },
+  {
+    id: "agov", region: "nw", name: "Агов дол",
+    place: "до с. Власатица, област Враца",
+    lat: 43.30779, lon: 23.49930, pin: "Център на яз. Агов дол в OpenStreetMap",
+    kind: "Платен водоем с кей и платформа.",
+    fish: "Шаран, бяла риба, сом, амур, костур, каракуда.",
+    fee: "Дневната такса не е публикувана в отворените страници.",
+    rules: "Обади се преди тръгване.",
+    stay: "Има тоалетна и паркинг.",
+    phone: "0899919999",
+    bait: "Царевица и бойли за шаран и амур. Костурът е на малка примамка."
+  },
+  {
+    id: "vlashki", region: "nw", name: "Влашки дол",
+    place: "до с. Бели извор, Враца. Клуб „Враца Карп“",
+    lat: 43.28859, lon: 23.48882, pin: "Център на яз. Влашки дол в OpenStreetMap",
+    kind: "Платен риболов по правило „хвани и пусни“.",
+    fish: "Шаран, амур, толстолоб, сом, каракуда.",
+    fee: "В бизнес каталог: 15 лв. на ден до 3 въдици. Шаран 1–2 кг по 5 лв./кг. Останалите стопански видове се връщат. Числото е от каталог, потвърди го по телефона на клуба.",
+    rules: "Наранена риба се заплаща. Секторът се оставя чист.",
+    stay: "На място има охрана на сектора.",
+    phone: "",
+    bait: "Бойли и царевица. Носи кеп и люлка."
+  },
+  {
+    id: "palitsi", region: "nc", name: "Палици",
+    place: "с. Палици, 12 км източно от Елена. 55 дка, средна дълбочина около 3 м",
+    lat: 42.922303, lon: 26.021927, pin: "GPS от туристическия център на община Елена",
+    kind: "Охраняван комплекс с видео. Режим „хвани–снимай–пусни“.",
+    fish: "Шаран и амур, много екземпляри над 10 кг. От 2024 г. едрите шарани са чипирани и с имена. Сайтът сочи улов 19,3 кг през май 2022 г. и пуснат екземпляр от 21 кг през 2025 г.",
+    fee: "Ценоразпис 2026 на сайта: зона С 15 € (07:00–19:00); зона А 25 € делник и 30 € уикенд; сектори В1–В3 50/60 €; В4 70/80 €. За А и В минимум две денонощия. Клубна карта 55 € до 31.12.2026 г.",
+    rules: "Делничните цени не важат в празници и през юли, август и септември.",
+    stay: "Стаи, ресторант и тоалетна. Див бивак няма.",
+    phone: "+359897921757",
+    bait: "Бойли и пелети. Задължителни са кеп, люлка и антисептик."
+  },
+  {
+    id: "kulekov", region: "nc", name: "Кулеков лейк",
+    place: "с. Хирево, около 10 км от Севлиево",
+    lat: 42.98126, lon: 24.98286, pin: "Езерото в OpenStreetMap до публикуваната точка 42.982, 24.985",
+    kind: "Водоем само за трофейна риба.",
+    fish: "Шаран. Блогът го описва като една от силните популации в страната.",
+    fee: "Такса няма в отворения текст.",
+    rules: "Резервация по телефона.",
+    stay: "Питай при резервацията.",
+    phone: "0888121731",
+    bait: "Бойли и пелети."
+  },
+  {
+    id: "pisanets", region: "nc", name: "Писанец",
+    place: "с. Писанец, община Ветово, Русенско",
+    lat: 43.663793, lon: 26.165021, pin: "Мястото „Язовир село Писанец“ в Google Maps",
+    kind: "Метод и шаран, режим „хвани и пусни“.",
+    fish: "Шаран и каракуда. Репортаж от 01.05.2026 г. описва риба около 7 кг.",
+    fee: "Същият репортаж: 10 € и две въдици.",
+    rules: "Таксата е от репортаж на рибар, не от ценоразпис на стопанина.",
+    stay: "Сектори по брега.",
+    phone: "+359876952780",
+    bait: "Метод фидер: пелети 2–4 мм и малки вафтери в по-трудните дни."
+  },
+  {
+    id: "sveta", region: "nc", name: "Света гора",
+    place: "Велико Търново",
+    lat: 43.06976, lon: 25.65562, pin: "езеро „Света гора“ в OpenStreetMap",
+    kind: "Частен водоем.",
+    fish: "Carpmap го описва като място с жива риба за спортен риболов.",
+    fee: "Таксата не е публикувана в отворените страници.",
+    rules: "Потвърди правилата при стопанина.",
+    stay: "Питай при резервация.",
+    phone: "",
+    bait: "Бойли и царевица, докато не чуеш местното меню."
+  },
+  {
+    id: "enitsa", region: "nc", name: "Еница",
+    place: "община Кнежа, област Плевен, на река Енишка",
+    lat: 43.36489, lon: 24.01065, pin: "яз. Еница в OpenStreetMap. Уикимапия дава стената на 43.366, 24.001",
+    kind: "Среден напоителен язовир на „Напоителни системи“. Уикипедия: обем 40,189 млн. м³, стена 34,3 м. Не е пелетно езеро и го няма като ред в краткия дневен бюлетин на големите язовири.",
+    fish: "Масовата риба е таранка в плиткото, плюс платика, костур и сом.",
+    fee: "Билет на ИАРА. Отделна спортна дневна такса в източниците няма.",
+    rules: "Пътищата са чакълени.",
+    stay: "Хора спират по брега. Организиран къмпинг няма.",
+    phone: "",
+    bait: "Червей, царевица и тесто за таранка и платика. Сомът — на живец или парче риба."
+  },
+  {
+    id: "kyulevcha", region: "ne", name: "Кюлевча",
+    place: "с. Кюлевча, община Каспичан, 17 км от Шумен. Около 40 дка",
+    lat: 43.24629, lon: 27.10919, pin: "Единственият язовир в OpenStreetMap южно от селото",
+    kind: "Трофеен водоем със сектори и понтони. Над 6 кг се връща. Има и мач и фидер.",
+    fish: "Блогът сочи над 2300 риби по 5–20 кг.",
+    fee: "Сайтът от откриването през 2018 г. пише 15 лв. за ден и 25 лв. за 24 часа. Това е стара обява.",
+    rules: "До 24-часов риболов се допуска след одобрение. Носи кеп, люлка и антисептик.",
+    stay: "Същата стара обява: каравана на язовира 25 лв., своя каравана 12 лв. за 24 часа.",
+    phone: "0898640422",
+    bait: "Бойли и пелети за трофейния шаран. За фидера — по-дребна стръв."
+  },
+  {
+    id: "bozveliysko", region: "ne", name: "Бозвелийско",
+    place: "с. Бозвелийско, община Провадия. 221 дка, средно 2–2,5 м, река Анадере",
+    lat: 43.11259, lon: 27.46645, pin: "Водоемът в OpenStreetMap върху публикуваната точка",
+    kind: "Асфалтов достъп. Правилата на сайта са за 2024 г.",
+    fish: "Шаран. Една риба от 1 до 3 кг може да се купи. Под 1 кг и над 3 кг се връщат.",
+    fee: "Сайт, правила 2024: 30 лв. ден; 40 лв. за 24 часа със запазен сектор. Четвъртият излет в календарния месец е безплатен по същия текст.",
+    rules: "Само безопасен монтаж с една кука. Задължителни са кеп и куковадач.",
+    stay: "Има каравана на язовира.",
+    phone: "0899863286",
+    bait: "Бойли. Плевелната риба е отделно от шарана, който се връща."
+  },
+  {
+    id: "trastikovo", region: "ne", name: "Тръстиково лейк",
+    place: "между Синдел и с. Тръстиково",
+    lat: 43.14614, lon: 27.57246, pin: "Точка от блога. Най-близкият водоем в картата е на около 700 м",
+    kind: "Резервация по телефона.",
+    fish: "Питай какво е зарибено за сезона.",
+    fee: "Таксата не е в отворения текст.",
+    rules: "Резервации понеделник–петък, 8:30–18:00.",
+    stay: "Питай при резервацията.",
+    phone: "0883990799",
+    bait: "Бойли и пелети, докато не чуеш менюто на водоема."
+  },
+  {
+    id: "botevo", region: "ne", name: "Ботево",
+    place: "около 35 км северно от Варна",
+    lat: 43.41912, lon: 27.71111, pin: "яз. Ботево в OpenStreetMap",
+    kind: "Водоем, който още се зарибява за шаранджийски риболов.",
+    fish: "Шаран, амур, толстолоб.",
+    fee: "Таксата не е публикувана.",
+    rules: "Обади се преди тръгване.",
+    stay: "Питай по телефона.",
+    phone: "0879066170",
+    bait: "Царевица и бойли."
+  },
+  {
+    id: "nikolaevka", region: "ne", name: "Николаевка",
+    place: "около 30 км от Варна. 346 дка",
+    lat: 43.37002, lon: 27.68741, pin: "Големият „Язовир Николаевка“ в OpenStreetMap, до бунгалата",
+    kind: "По-див селски язовир. В OpenStreetMap има и втори, по-малък водоем със същото име на 43.339, 27.667.",
+    fish: "Шаран, толстолоб, сом, амур, червеноперка, таранка и раци.",
+    fee: "Дневна такса в отворените текстове няма. Има телефон за връзка.",
+    rules: "Питай стопанина кой от двата водоема е отворен.",
+    stay: "До големия язовир има пикник и бунгала. Организиран къмпинг на брега на картата е отделно от дивия бряг.",
+    phone: "0884494594",
+    bait: "Червей и царевица за таранка и червеноперка. Шаранът взема и бойли."
+  },
+  {
+    id: "manastir", region: "ne", name: "Манастир",
+    place: "6 км от Девня, 39 км западно от Варна",
+    lat: 43.17081, lon: 27.53562, pin: "яз. Манастир в OpenStreetMap",
+    kind: "Зарибяването е описано за 2017 г.",
+    fish: "Към 2017 г.: сом 6–40 кг, шаран 1–10 кг, амур 1–3 кг. Числата са оттогава.",
+    fee: "Актуална такса няма в отворения текст.",
+    rules: "Обади се за днешните правила.",
+    stay: "Питай по телефона.",
+    phone: "0878269835",
+    bait: "Бойли за шаран и амур. Сомът — на риба."
+  },
+  {
+    id: "peti", region: "sw", name: "Пети канал",
+    place: "Костенец",
+    lat: 42.31356, lon: 23.82344, pin: "Адресът 8R7F+C9 от каталога на обекта. Водата е в същия край на града",
+    kind: "Режим „хвани и пусни“.",
+    fish: "Сом, шаран, амур, щука, пъстърва, каракуда, костур, червеноперка, кефал. На 26.09.2025 г. е зарибен с шаран, амур и толстолоб по 5–7 кг.",
+    fee: "Сайтът: 1 въдица 20 лв., до 3 въдици 30 лв. Костур и червеноперка до 3 кг общо са без доплащане при платена такса. Деца до 12 г. безплатно с възрастен. От 12 до 18 г. по 10 лв. на въдица.",
+    rules: "Секторът се оставя както е заварен.",
+    stay: "Риболов по сектори, без отделен къмпинг в текста на сайта.",
+    phone: "",
+    bait: "Бойли и пелети за шарана. Костурът и червеноперката се ловят и на червей.",
+    link: "https://yazoviripetikanal.com/"
+  },
+  {
+    id: "bushlyak", region: "sw", name: "Бушляк",
+    place: "между Батановци, Копаница и Лесковец, Пернишко",
+    lat: 42.58361, lon: 22.94111, pin: "Bushlyak Reservoir в Уикимапия, съвпада с водоема в OpenStreetMap",
+    kind: "Малък язовир от 1974 г. Блогът го води като трофеен.",
+    fish: "Блогът сочи риби над 25 кг и планирано пускане на шарани 20+ и 30+.",
+    fee: "Таксата не е публикувана.",
+    rules: "Координатите в същия блог са счупени. Точката тук е от Уикимапия.",
+    stay: "Питай по телефона.",
+    phone: "0898985047",
+    bait: "Тежък шаранджийски риболов: бойли."
+  },
+  {
+    id: "borets", region: "sc", name: "Борец",
+    place: "до с. Борец, община Брезово, област Пловдив. Около 40 км от Пловдив",
+    lat: 42.3496, lon: 24.9543, pin: "Двата водоема на сателита. Уикимапия именува източния „Borets 2“ на 42.3494, 24.9575. Западният е по-голям и има остров",
+    kind: "Частен трофеен комплекс с два водоема и сектори.",
+    fish: "Сайтът сочи рекорди: шаран 29,7 кг, амур 32 кг, сом 90+ кг, щука 5 кг. Има и каракуда и костур.",
+    fee: "От 01.04.2026 г. на началната страница: 25 € за 24 часа и 15 € за светлата част. Старата страница „Цени“ още показва 35/20 лв. Потвърди по телефона.",
+    rules: "От 01.04.2025 г. стената на големия водоем е забранена за риболов. Захранваща лодка се ползва на големия. Надуваеми лодки са забранени. Рибата се връща. Носи кеп, люлка и антисептик. Огън не се пали.",
+    stay: "Сектори за денонощен престой. Див къмпинг извън сектора няма.",
+    phone: "+359892606029",
+    phone2: "+359894355456",
+    bait: "Бойли. Сайтът държи на хуманно отношение и връщане на рибата.",
+    link: "https://qzovir-borec.com/"
+  },
+  {
+    id: "arbovia", region: "sc", name: "Арбовия",
+    place: "между Стрелци и Драганово, Брезовско, полите на Средна гора",
+    lat: 42.39954, lon: 24.95185, pin: "Точка от блога. На сателита водоемът с права стена е непосредствено до нея",
+    kind: "Класен шаранджийски водоем.",
+    fish: "Шаран.",
+    fee: "Таксата не е публикувана.",
+    rules: "Резервация по телефона.",
+    stay: "До стената се виждат постройки. Питай какво е разрешено за нощувка.",
+    phone: "+359896131513",
+    bait: "Бойли и пелети."
+  },
+  {
+    id: "arnaut", region: "se", name: "Арнаут дере 2",
+    place: "Бургаско",
+    lat: 42.67798, lon: 27.42979, pin: "Езерото в OpenStreetMap върху публикуваната точка",
+    kind: "Целогодишен водоем само за трофеен шаран, със строги правила.",
+    fish: "Блогът сочи много риби над 20 кг.",
+    fee: "Стари форумни цени не слагам. Питай администрацията.",
+    rules: "Шумни компании се отпращат. Който наруши правилата, напуска.",
+    stay: "Сектори. Условията за палатка ги казва управителят.",
+    phone: "0878730334",
+    phone2: "0878730336",
+    bait: "Бойли за едър шаран."
+  },
+  {
+    id: "suedinenie", region: "se", name: "Съединение",
+    place: "с. Съединение, община Сунгурларе, област Бургас. 150 дка по блога",
+    lat: 42.86616, lon: 27.03591, pin: "яз. Съединение при селото в OpenStreetMap",
+    kind: "Див водоем с пясъчно дъно. Блогът дава дълбочини от 2 до 24 м и дължина около 700 м. Отделно в страната има и друг язовир Съединение, в Търговищко.",
+    fish: "Шаран на тежък такъм, фидер и щека.",
+    fee: "Таксата не е публикувана.",
+    rules: "Състезание се организира след уговорка.",
+    stay: "Питай управата за престой.",
+    phone: "0889541414",
+    bait: "Тежък шаран, фидер и щека. Дъното е пясък, с малко закачки по описанието."
+  },
+  {
+    id: "krotyrya", region: "se", name: "Кротиря",
+    place: "Бургаско",
+    lat: 42.57375, lon: 27.57782, pin: "Точка от блога. Наоколо в картата има няколко малки водоема в рамките на 1 км",
+    kind: "Място с беседки за спортен риболов.",
+    fish: "Щука, шаран, амур, сом, каракуда.",
+    fee: "Таксата не е публикувана.",
+    rules: "Обади се кой от съседните водоеми е отворен.",
+    stay: "Беседки и пейки. Къмпинг в текста няма.",
+    phone: "0896851670",
+    bait: "Блесна и силикон за щуката. Шаранът — на царевица и бойли."
+  }
+];
+
+const UNPINNED = [
+  {
+    id: "teken", region: "sc", name: "Текен дере",
+    place: "с. Болярино, между Раковски и Белозем. Около 85 дка",
+    kind: "Частен водоем, ползва се и за състезания.",
+    fish: "Шаран.",
+    fee: "Таксата не е в отворените страници.",
+    rules: "В отворените карти няма еднозначно именувана точка, затова маркерът липсва.",
+    stay: "Питай стопанина.",
+    phone: "",
+    bait: "Бойли."
+  },
+  {
+    id: "voden", region: "sc", name: "Воден свят",
+    place: "яз. № 8, на 1 км от Хисаря",
+    kind: "Къмпинг с бунгала и 15 кея. Платен любителски риболов, не див язовир.",
+    fish: "Шаран, каракуда, сом, толстолоб.",
+    fee: "В отзив на сайта от 25.03.2024 г.: риболов 15 лв. за посещение, бунгало за двама 50 лв., лукс за трима 80 лв. Каракудата не се плаща. Това е отзив, не таблото на рецепцията.",
+    rules: "Резервация по телефона.",
+    stay: "Бунгала с климатик. Това е организиран къмпинг.",
+    phone: "+359879666179",
+    bait: "Царевица и бойли.",
+    link: "https://voden.club/"
+  },
+  {
+    id: "ayazmo", region: "se", name: "Аязмо",
+    place: "над кв. Меден рудник, Бургас",
+    kind: "Малък водоем сред няколко съседни езера. Точната чаша не е отделена с име в картата.",
+    fish: "Много дребни шаранчета.",
+    fee: "Отделна такса в източниците няма.",
+    rules: "Маркерът е пропуснат, за да не сочи съседно езеро.",
+    stay: "Градският квартал е наблизо.",
+    phone: "",
+    bait: "Червей и царевица за дребния шаран."
+  }
+];
+
+const map = L.map("map", { zoomControl: true }).setView([42.75, 25.4], 7);
+const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap"
+});
+const sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+  maxZoom: 19,
+  attribution: "Esri, Maxar, Earthstar"
+});
+osm.addTo(map);
+
+const markers = {};
+let activeRegion = "all";
+let activeId = null;
+let satellite = false;
+
+function icon(color, on) {
+  return L.divIcon({
+    className: "pin" + (on ? " on" : ""),
+    html: `<span style="background:${color}"></span>`,
+    iconSize: on ? [24, 24] : [20, 20],
+    iconAnchor: on ? [12, 22] : [10, 18],
+    popupAnchor: [0, -16]
+  });
+}
+
+function phones(item) {
+  return [item.phone, item.phone2].filter(Boolean);
+}
+
+function cardHtml(item) {
+  const tel = phones(item).map(p => `<a href="tel:${p.replace(/\s/g, "")}">${p}</a>`).join(" · ");
+  const g = item.lat
+    ? `<a target="_blank" rel="noopener" href="https://www.google.com/maps?q=${item.lat},${item.lon}">Google Maps</a>`
+    : "";
+  const site = item.link ? ` · <a target="_blank" rel="noopener" href="${item.link}">Сайт</a>` : "";
+  return `<div class="pop">
+    <h3>${item.name}</h3>
+    <div class="meta">${regionName[item.region]} · ${item.place}</div>
+    <p>${item.kind}</p>
+    <p><b>Риба.</b> ${item.fish}</p>
+    <p><b>Такса.</b> ${item.fee}</p>
+    <p><b>Правила.</b> ${item.rules}</p>
+    <p><b>Стръв.</b> ${item.bait}</p>
+    <p><b>Престой.</b> ${item.stay}</p>
+    <p>${tel ? "<b>Телефон.</b> " + tel + "<br>" : ""}<span class="tag">${item.pin || "Без проверена точка"}</span></p>
+    <p>${g}${site}</p>
+  </div>`;
+}
+
+LAKES.forEach(lake => {
+  const marker = L.marker([lake.lat, lake.lon], { icon: icon(regionColor[lake.region], false) });
+  marker.bindPopup(cardHtml(lake), { maxWidth: 320 });
+  marker.on("click", () => setActive(lake.id, false));
+  markers[lake.id] = marker;
+});
+
+function visibleLakes() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  return LAKES.filter(l => {
+    if (activeRegion !== "all" && l.region !== activeRegion) return false;
+    if (!q) return true;
+    return [l.name, l.place, l.fish, l.kind, regionName[l.region]].join(" ").toLowerCase().includes(q);
+  });
+}
+
+function visibleUnpinned() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  return UNPINNED.filter(l => {
+    if (activeRegion !== "all" && l.region !== activeRegion) return false;
+    if (!q) return true;
+    return [l.name, l.place, l.fish, regionName[l.region]].join(" ").toLowerCase().includes(q);
+  });
+}
+
+function syncMarkers() {
+  const ids = new Set(visibleLakes().map(l => l.id));
+  LAKES.forEach(l => {
+    const m = markers[l.id];
+    if (ids.has(l.id)) {
+      if (!map.hasLayer(m)) m.addTo(map);
+    } else if (map.hasLayer(m)) {
+      map.removeLayer(m);
+    }
+    m.setIcon(icon(regionColor[l.region], l.id === activeId));
+  });
+}
+
+function renderList() {
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  visibleLakes().forEach(l => {
+    const li = document.createElement("li");
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "item" + (l.id === activeId ? " on" : "");
+    btn.innerHTML = `<i class="dot" style="background:${regionColor[l.region]}"></i><strong></strong><span></span>`;
+    btn.querySelector("strong").textContent = l.name;
+    btn.querySelector("span").textContent = l.place;
+    btn.addEventListener("click", () => {
+      setActive(l.id, true);
+      document.getElementById("side").classList.remove("open");
+    });
+    li.appendChild(btn);
+    list.appendChild(li);
+  });
+  const loose = visibleUnpinned();
+  if (loose.length) {
+    const h = document.createElement("h2");
+    h.textContent = "Без проверена точка";
+    list.appendChild(h);
+    loose.forEach(l => {
+      const li = document.createElement("li");
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "item" + (l.id === activeId ? " on" : "");
+      btn.innerHTML = `<i class="dot" style="background:${regionColor[l.region]}"></i><strong></strong><span></span>`;
+      btn.querySelector("strong").textContent = l.name;
+      btn.querySelector("span").textContent = "няма маркер · " + l.place;
+      btn.addEventListener("click", () => {
+        activeId = l.id;
+        renderList();
+      });
+      li.appendChild(btn);
+      if (l.id === activeId) {
+        const box = document.createElement("div");
+        box.className = "card";
+        box.innerHTML = cardHtml(l);
+        li.appendChild(box);
+      }
+      list.appendChild(li);
+    });
+  }
+  if (!visibleLakes().length && !loose.length) {
+    const li = document.createElement("li");
+    li.className = "card miss";
+    li.textContent = "Няма водоем по това търсене.";
+    list.appendChild(li);
+  }
+}
+
+function setActive(id, fly) {
+  activeId = id;
+  const lake = LAKES.find(l => l.id === id);
+  syncMarkers();
+  renderList();
+  if (!lake) return;
+  const marker = markers[id];
+  if (fly) {
+    map.flyTo([lake.lat, lake.lon], Math.max(map.getZoom(), 13), { duration: 0.6 });
+  }
+  marker.openPopup();
+}
+
+function fitVisible() {
+  const pts = visibleLakes().map(l => [l.lat, l.lon]);
+  if (!pts.length) {
+    map.setView([42.75, 25.4], 7);
+    return;
+  }
+  map.fitBounds(pts, { padding: [40, 40], maxZoom: 11 });
+}
+
+function renderFilters() {
+  const box = document.getElementById("filters");
+  box.innerHTML = "";
+  REGIONS.forEach(r => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = r.name;
+    b.dataset.region = r.id;
+    if (r.id === activeRegion) {
+      b.className = "on";
+      b.style.background = r.id === "all" ? "#1c2430" : r.color;
+    }
+    b.addEventListener("click", () => {
+      activeRegion = r.id;
+      activeId = null;
+      renderFilters();
+      syncMarkers();
+      renderList();
+      fitVisible();
+    });
+    box.appendChild(b);
+  });
+}
+
+document.getElementById("q").addEventListener("input", () => {
+  syncMarkers();
+  renderList();
+});
+document.getElementById("baseBtn").addEventListener("click", () => {
+  satellite = !satellite;
+  if (satellite) {
+    map.removeLayer(osm);
+    sat.addTo(map);
+    document.getElementById("baseBtn").textContent = "Карта";
+  } else {
+    map.removeLayer(sat);
+    osm.addTo(map);
+    document.getElementById("baseBtn").textContent = "Сателит";
+  }
+});
+document.getElementById("fitBtn").addEventListener("click", () => {
+  activeRegion = "all";
+  document.getElementById("q").value = "";
+  renderFilters();
+  syncMarkers();
+  renderList();
+  fitVisible();
+});
+document.getElementById("menuBtn").addEventListener("click", () => {
+  document.getElementById("side").classList.toggle("open");
+});
+
+renderFilters();
+syncMarkers();
+renderList();
+fitVisible();
+
+if (location.hash) {
+  const id = location.hash.slice(1);
+  if (LAKES.some(l => l.id === id) || UNPINNED.some(l => l.id === id)) setActive(id, true);
+}
+</script>
+</body>
+</html>
