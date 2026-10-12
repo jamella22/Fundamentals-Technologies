@@ -837,7 +837,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
   <aside id="side">
     <header>
       <h1>Малки и средни язовири</h1>
-      <p class="lead">Именуваните язовири в България, плюс проверените спортни водоеми. Обемът на големите държавни язовири е от бюлетин №1650 на МОСВ, 09.10.2026 г., 8:00 ч. Малките и платените водоеми ги няма в този бюлетин. От всяка точка има „Релеф“: брег, модел на дълбочината по този обем и 3D. Билетът на ИАРА е отделно: 12 / 16 / 30 / 50 лв. Фейсбук има само където страницата се отвори.</p><p class="lead" id="countLine"></p>
+      <p class="lead">Именуваните язовири в България, плюс проверените спортни водоеми. Обемът на големите държавни язовири е от бюлетин №1650 на МОСВ, 09.10.2026 г., 8:00 ч. Малките и платените водоеми ги няма в този бюлетин. „Релеф“ отваря сателит. Метри има само от събрания сонар: засега това е източният бряг на Огоста, до 7,1 м. Билетът на ИАРА е отделно: 12 / 16 / 30 / 50 лв. Фейсбук има само където страницата се отвори.</p><p class="lead" id="countLine"></p>
     </header>
     <div class="tools">
       <input id="q" type="search" placeholder="Търси язовир, риба, град" autocomplete="off">
@@ -1605,7 +1605,10 @@ function cardHtml(item) {
   const g = item.lat
     ? `<a target="_blank" rel="noopener" href="https://www.google.com/maps?q=${item.lat},${item.lon}">Google Maps</a>`
     : "";
-  const relief = item.lat ? ` · <a href="${reliefHref(item.id)}">Релеф</a>` : "";
+  const relief = !item.lat ? ""
+    : item.id === "osm-4006870"
+      ? ` · <a href="${reliefHref(item.id)}">Сонар на източния бряг</a>`
+      : ` · <a href="${reliefHref(item.id)}">Релеф</a>`;
   const site = item.link ? ` · <a target="_blank" rel="noopener" href="${item.link}">Сайт</a>` : "";
   const fb = item.facebook ? ` · <a target="_blank" rel="noopener" href="${item.facebook}">Facebook</a>` : "";
   const vol = item.volume ? `<p><b>Обем.</b> ${item.volume}</p>` : "";
@@ -1700,7 +1703,8 @@ function renderList() {
     btn.className = "item" + (l.id === activeId ? " on" : "");
     btn.innerHTML = `<i class="dot" style="background:${regionColor[l.region]}"></i><strong></strong><span></span>`;
     btn.querySelector("strong").textContent = l.name;
-    btn.querySelector("span").textContent = [l.volumeShort, l.checked ? "" : "от картата", l.place].filter(Boolean).join(" · ");
+    const sonar = l.id === "osm-4006870" ? "сонар на източния бряг" : "";
+    btn.querySelector("span").textContent = [l.volumeShort, sonar, l.checked ? "" : "от картата", l.place].filter(Boolean).join(" · ");
     btn.addEventListener("click", () => {
       setActive(l.id, true);
       document.getElementById("side").classList.remove("open");
