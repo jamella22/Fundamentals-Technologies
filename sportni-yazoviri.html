@@ -778,18 +778,22 @@ svg.leaflet-image-layer.leaflet-interactive path {
     box-shadow: 0 2px 8px rgba(28,36,48,.12);
   }
   #menuBtn { display: none; position: absolute; z-index: 2100; top: 12px; left: 12px; }
-  .pin { background: transparent; border: none; }
+  .leaflet-marker-icon.pin { background: transparent; border: none; pointer-events: none !important; }
   .pin span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
+    margin: -9px 0 0 -9px;
     border-radius: 50% 50% 50% 0;
     transform: rotate(-45deg);
     border: 2px solid #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,.35);
+    box-shadow: 0 1px 4px rgba(0,0,0,.45);
   }
-  .pin.on span { width: 20px; height: 20px; }
-  .pin.small span { width: 9px; height: 9px; border-width: 1px; }
+  .pin.on span { width: 22px; height: 22px; margin: -11px 0 0 -11px; }
+  .pin.small span { width: 14px; height: 14px; margin: -7px 0 0 -7px; border-width: 2px; }
   .leaflet-popup-content-wrapper { border-radius: 14px; }
   .leaflet-popup-content {
     margin: 12px 14px;
@@ -1655,7 +1659,7 @@ UNPINNED.push(
 
 try {
 document.getElementById("map").textContent = "";
-const map = L.map("map", { zoomControl: true }).setView([42.75, 25.4], 7);
+const map = L.map("map", { zoomControl: true, tapTolerance: 32 }).setView([42.75, 25.4], 7);
 const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
   attribution: "&copy; OpenStreetMap"
@@ -1672,13 +1676,12 @@ let activeId = null;
 let satellite = false;
 
 function icon(color, on, small) {
-  const size = on ? 22 : (small ? 11 : 16);
   return L.divIcon({
     className: "pin" + (on ? " on" : "") + (small ? " small" : ""),
     html: `<span style="background:${color}"></span>`,
-    iconSize: [size, size],
-    iconAnchor: [size / 2, size - 2],
-    popupAnchor: [0, -size],
+    iconSize: [36, 36],
+    iconAnchor: [18, 18],
+    popupAnchor: [0, -16],
   });
 }
 
@@ -1710,7 +1713,7 @@ function cardHtml(item) {
 }
 
 LAKES.forEach(lake => {
-  const marker = L.marker([lake.lat, lake.lon], { icon: icon(regionColor[lake.region], false) });
+  const marker = L.marker([lake.lat, lake.lon], { icon: icon(regionColor[lake.region], false), interactive: false, keyboard: false });
   marker.bindPopup(cardHtml(lake), { maxWidth: 320 });
   marker.on("click", () => setActive(lake.id, false));
   markers[lake.id] = marker;
@@ -1726,6 +1729,29 @@ function visibleLakes() {
     return [l.name, l.place, l.fish, l.kind, regionName[l.region]].join(" ").toLowerCase().includes(q);
   });
 }
+
+const PIN_REACH = 34;
+function nearestVisible(latlng) {
+  const q = map.latLngToContainerPoint(latlng);
+  let best = null;
+  let bestD = PIN_REACH;
+  visibleLakes().forEach(l => {
+    const p = map.latLngToContainerPoint([l.lat, l.lon]);
+    const d = Math.hypot(p.x - q.x, p.y - q.y);
+    if (d < bestD) {
+      bestD = d;
+      best = l;
+    }
+  });
+  return best;
+}
+map.on("click", (e) => {
+  const lake = nearestVisible(e.latlng);
+  if (lake) setActive(lake.id, false);
+});
+map.on("mousemove", (e) => {
+  map.getContainer().style.cursor = nearestVisible(e.latlng) ? "pointer" : "";
+});
 
 function visibleUnpinned() {
   const q = document.getElementById("q").value.trim().toLowerCase();
