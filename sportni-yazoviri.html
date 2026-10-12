@@ -114,7 +114,7 @@
     padding: 8px 12px;
     box-shadow: 0 2px 8px rgba(28,36,48,.12);
   }
-  #menuBtn { display: none; position: absolute; z-index: 600; top: 12px; left: 12px; }
+  #menuBtn { display: none; position: absolute; z-index: 2100; top: 12px; left: 12px; }
   .pin { background: transparent; border: none; }
   .pin span {
     display: block;
@@ -127,7 +127,12 @@
   }
   .pin.on span { width: 20px; height: 20px; }
   .leaflet-popup-content-wrapper { border-radius: 14px; }
-  .leaflet-popup-content { margin: 12px 14px; width: 280px; }
+  .leaflet-popup-content {
+    margin: 12px 14px;
+    width: min(280px, 72vw);
+    max-height: min(68vh, 460px);
+    overflow: auto;
+  }
   .pop h3 { margin: 0 0 2px; font-size: 18px; }
   .pop .meta { color: var(--muted); font-size: 12.5px; margin-bottom: 8px; }
   .pop p { margin: 0 0 6px; font-size: 13.5px; line-height: 1.4; }
@@ -144,7 +149,7 @@
     #app { display: block; }
     aside {
       position: absolute;
-      z-index: 700;
+      z-index: 2000;
       inset: 0 auto 0 0;
       width: min(100%, 420px);
       transform: translateX(-105%);
