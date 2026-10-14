@@ -43,10 +43,15 @@
     if (bbox && bbox.length === 2) {
       const minlat = Math.min(bbox[0][0], bbox[1][0]), maxlat = Math.max(bbox[0][0], bbox[1][0]);
       const minlon = Math.min(bbox[0][1], bbox[1][1]), maxlon = Math.max(bbox[0][1], bbox[1][1]);
-      const n = 4;
-      for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) {
-        samples.push(await depthAt(minlat + (i + .5) * (maxlat - minlat) / n, minlon + (j + .5) * (maxlon - minlon) / n));
-        await sleep(40);
+      const spanM = Math.hypot((maxlat-minlat)*111320, (maxlon-minlon)*111320*Math.cos((minlat+maxlat)/2*Math.PI/180));
+      const stepM = (Math.abs(w.waterId) === 4006870 || spanM > 8000) ? 80 : (spanM > 3000 ? 120 : 200);
+      const dlat = stepM / 111320;
+      const dlon = stepM / (111320 * Math.max(0.2, Math.cos((minlat+maxlat)/2*Math.PI/180)));
+      for (let lat = minlat + dlat/2; lat < maxlat; lat += dlat) {
+        for (let lon = minlon + dlon/2; lon < maxlon; lon += dlon) {
+          samples.push(await depthAt(lat, lon));
+          await sleep(35);
+        }
       }
     } else samples.push(await depthAt(w.lat, w.lon));
     out.push({ waterId: w.waterId, name: w.name, lat: w.lat, lon: w.lon, samples });
