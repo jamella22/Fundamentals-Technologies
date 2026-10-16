@@ -1597,14 +1597,14 @@
   },
   {
     "waterId": 603757332,
-    "name": "",
-    "slug": "",
+    "name": "Бела Рада",
+    "slug": "bela-rada",
     "region": "",
     "coverage": 6739,
     "has2D": true,
-    "has3D": false,
-    "lat": 43.9586421,
-    "lon": 22.74378943128597,
+    "has3D": true,
+    "lat": 43.958434,
+    "lon": 22.743309,
     "bbox": [
       [
         43.9571399,
@@ -4221,6 +4221,26 @@
       ]
     ],
     "coverage": 8000,
+    "has2D": true,
+    "has3D": true
+  },
+  {
+    "waterId": 1358876636,
+    "name": "Бела Рада",
+    "slug": "bela-rada",
+    "lat": 43.958434,
+    "lon": 22.743309,
+    "bbox": [
+      [
+        43.9556262,
+        22.73701768
+      ],
+      [
+        43.9614961,
+        22.748693019999997
+      ]
+    ],
+    "coverage": 6739,
     "has2D": true,
     "has3D": true
   }
