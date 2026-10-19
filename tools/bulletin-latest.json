@@ -1,0 +1,321 @@
+{
+  "source": "МОСВ ежедневен бюлетин",
+  "bulletin_no": 1655,
+  "date": "16.10.2026",
+  "time": "8:00",
+  "url": "https://www.moew.government.bg/bg/ejedneven-byuletin-za-sustoyanieto-na-vodite-za-16-oktomvri-2026/",
+  "dams": [
+    {
+      "name": "Искър",
+      "volume_million_m3": 514.746,
+      "capacity_million_m3": 655.252,
+      "percent": 78.56
+    },
+    {
+      "name": "Бели Искър",
+      "volume_million_m3": 6.12,
+      "capacity_million_m3": 15.08,
+      "percent": 40.59
+    },
+    {
+      "name": "Среченска бара",
+      "volume_million_m3": 10.966,
+      "capacity_million_m3": 15.5,
+      "percent": 70.75
+    },
+    {
+      "name": "Христо Смирненски",
+      "volume_million_m3": 23.328,
+      "capacity_million_m3": 27.7,
+      "percent": 84.22
+    },
+    {
+      "name": "Йовковци",
+      "volume_million_m3": 81.716,
+      "capacity_million_m3": 92.179,
+      "percent": 88.65
+    },
+    {
+      "name": "Тича",
+      "volume_million_m3": 242.925,
+      "capacity_million_m3": 311.8,
+      "percent": 77.91
+    },
+    {
+      "name": "Камчия",
+      "volume_million_m3": 194.845,
+      "capacity_million_m3": 233.55,
+      "percent": 83.43
+    },
+    {
+      "name": "Ясна поляна",
+      "volume_million_m3": 23.519,
+      "capacity_million_m3": 32.32,
+      "percent": 72.77
+    },
+    {
+      "name": "Асеновец",
+      "volume_million_m3": 23.28,
+      "capacity_million_m3": 28.2,
+      "percent": 82.55
+    },
+    {
+      "name": "Боровица",
+      "volume_million_m3": 25.071,
+      "capacity_million_m3": 27.3,
+      "percent": 91.84
+    },
+    {
+      "name": "Студена",
+      "volume_million_m3": 17.711,
+      "capacity_million_m3": 25.2,
+      "percent": 70.28
+    },
+    {
+      "name": "Дяково",
+      "volume_million_m3": 18.684,
+      "capacity_million_m3": 35.4,
+      "percent": 52.78
+    },
+    {
+      "name": "Калин - за рез.водоснабдяване",
+      "volume_million_m3": 0.97,
+      "capacity_million_m3": 1.024,
+      "percent": 94.77
+    },
+    {
+      "name": "Карагьол - за рез.водоснабдяване",
+      "volume_million_m3": 0.983,
+      "capacity_million_m3": 2.252,
+      "percent": 43.66
+    },
+    {
+      "name": "Огняново - за рез.водоснабдяване **",
+      "volume_million_m3": 19.83,
+      "capacity_million_m3": 31.6,
+      "percent": 62.75
+    },
+    {
+      "name": "Порой",
+      "volume_million_m3": 11.253,
+      "capacity_million_m3": 44.24,
+      "percent": 25.44
+    },
+    {
+      "name": "Ахелой",
+      "volume_million_m3": 9.678,
+      "capacity_million_m3": 11.513,
+      "percent": 84.06
+    },
+    {
+      "name": "Панчарево",
+      "volume_million_m3": 5.38,
+      "capacity_million_m3": 6.465,
+      "percent": 83.22
+    },
+    {
+      "name": "Ястребино",
+      "volume_million_m3": 40.767,
+      "capacity_million_m3": 62.3,
+      "percent": 65.44
+    },
+    {
+      "name": "Кула",
+      "volume_million_m3": 10.603,
+      "capacity_million_m3": 20.25,
+      "percent": 52.36
+    },
+    {
+      "name": "Рабиша",
+      "volume_million_m3": 10.028,
+      "capacity_million_m3": 43.2,
+      "percent": 23.21
+    },
+    {
+      "name": "Огоста",
+      "volume_million_m3": 206.65,
+      "capacity_million_m3": 506.0,
+      "percent": 40.84
+    },
+    {
+      "name": "Сопот",
+      "volume_million_m3": 34.488,
+      "capacity_million_m3": 60.908,
+      "percent": 56.62
+    },
+    {
+      "name": "Горни Дъбник",
+      "volume_million_m3": 48.889,
+      "capacity_million_m3": 130.0,
+      "percent": 37.61
+    },
+    {
+      "name": "Бели Лом",
+      "volume_million_m3": 6.101,
+      "capacity_million_m3": 25.5,
+      "percent": 23.93
+    },
+    {
+      "name": "Съединение",
+      "volume_million_m3": 7.715,
+      "capacity_million_m3": 12.81,
+      "percent": 60.23
+    },
+    {
+      "name": "Жребчево",
+      "volume_million_m3": 241.474,
+      "capacity_million_m3": 400.0,
+      "percent": 60.37
+    },
+    {
+      "name": "Малко Шарково",
+      "volume_million_m3": 34.752,
+      "capacity_million_m3": 45.0,
+      "percent": 77.23
+    },
+    {
+      "name": "Домлян",
+      "volume_million_m3": 1.968,
+      "capacity_million_m3": 26.074,
+      "percent": 7.55
+    },
+    {
+      "name": "Пясъчник",
+      "volume_million_m3": 43.784,
+      "capacity_million_m3": 206.53,
+      "percent": 21.2
+    },
+    {
+      "name": "Тополница",
+      "volume_million_m3": 37.009,
+      "capacity_million_m3": 137.108,
+      "percent": 26.99
+    },
+    {
+      "name": "Тракиец",
+      "volume_million_m3": 68.734,
+      "capacity_million_m3": 114.0,
+      "percent": 60.29
+    },
+    {
+      "name": "Пчелина",
+      "volume_million_m3": 53.9,
+      "capacity_million_m3": 54.2,
+      "percent": 99.45
+    },
+    {
+      "name": "Александър Стамболийски",
+      "volume_million_m3": 126.306,
+      "capacity_million_m3": 205.569,
+      "percent": 61.44
+    },
+    {
+      "name": "Копринка",
+      "volume_million_m3": 52.647,
+      "capacity_million_m3": 142.214,
+      "percent": 37.02
+    },
+    {
+      "name": "Белмекен-Чаира",
+      "volume_million_m3": 111.585,
+      "capacity_million_m3": 149.536,
+      "percent": 74.62
+    },
+    {
+      "name": "Белмекен",
+      "volume_million_m3": 106.975,
+      "capacity_million_m3": 144.036,
+      "percent": 74.27
+    },
+    {
+      "name": "Чаира",
+      "volume_million_m3": 4.61,
+      "capacity_million_m3": 5.5,
+      "percent": 83.81
+    },
+    {
+      "name": "Голям Беглик-Широка поляна",
+      "volume_million_m3": 62.441,
+      "capacity_million_m3": 86.091,
+      "percent": 72.53
+    },
+    {
+      "name": "Голям Беглик",
+      "volume_million_m3": 47.74,
+      "capacity_million_m3": 62.111,
+      "percent": 76.86
+    },
+    {
+      "name": "Широка поляна",
+      "volume_million_m3": 14.701,
+      "capacity_million_m3": 23.98,
+      "percent": 61.31
+    },
+    {
+      "name": "Беглика",
+      "volume_million_m3": 0.792,
+      "capacity_million_m3": 1.554,
+      "percent": 50.94
+    },
+    {
+      "name": "Тошков Чарк",
+      "volume_million_m3": 0.968,
+      "capacity_million_m3": 1.782,
+      "percent": 54.34
+    },
+    {
+      "name": "Батак",
+      "volume_million_m3": 206.984,
+      "capacity_million_m3": 310.298,
+      "percent": 66.71
+    },
+    {
+      "name": "Доспат",
+      "volume_million_m3": 325.615,
+      "capacity_million_m3": 449.249,
+      "percent": 72.48
+    },
+    {
+      "name": "Цанков камък",
+      "volume_million_m3": 83.993,
+      "capacity_million_m3": 110.708,
+      "percent": 75.87
+    },
+    {
+      "name": "Въча",
+      "volume_million_m3": 166.038,
+      "capacity_million_m3": 226.12,
+      "percent": 73.43
+    },
+    {
+      "name": "Кричим",
+      "volume_million_m3": 19.183,
+      "capacity_million_m3": 20.256,
+      "percent": 94.7
+    },
+    {
+      "name": "Кърджали",
+      "volume_million_m3": 384.766,
+      "capacity_million_m3": 497.236,
+      "percent": 77.38
+    },
+    {
+      "name": "Студен кладенец",
+      "volume_million_m3": 223.81,
+      "capacity_million_m3": 387.772,
+      "percent": 57.72
+    },
+    {
+      "name": "Ивайловград",
+      "volume_million_m3": 139.111,
+      "capacity_million_m3": 156.702,
+      "percent": 88.77
+    },
+    {
+      "name": "Розов кладенец",
+      "volume_million_m3": 18.24,
+      "capacity_million_m3": 20.4,
+      "percent": 89.41
+    }
+  ]
+}

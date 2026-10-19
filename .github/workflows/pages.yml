@@ -20,8 +20,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Prepare site
         run: |
-          mkdir -p _site
+          mkdir -p _site/tools
           cp sportni-yazoviri.html relef.html ogosta-breg.html _site/
+          cp tools/bulletin-latest.json _site/tools/
           printf '%s\n' '<!DOCTYPE html><meta charset="utf-8"><title>Спортни язовири</title>' \
             '<p><a href="sportni-yazoviri.html">Спортни язовири</a></p>' \
             '<p><a href="relef.html">Дълбочина / релеф</a></p>' \
